@@ -1732,7 +1732,7 @@
                 {
                   "type": "FIELD",
                   "exp": "{Document}",
-                  "dataSourceId": "dataSource_1-ord_fabric_hosted_1412-dataView_1",
+                  "dataSourceId": "dataSource_1-ord_fabric_hosted_1412-dataView_2",
                   "jimuFieldName": "name",
                   "isFromRepeatedDataSourceContext": true
                 }
@@ -1805,7 +1805,10 @@
           "dataSourceId": "dataSource_1-ord_fabric_hosted_1412-dataView_2",
           "mainDataSourceId": "dataSource_1-ord_fabric_hosted_1412",
           "rootDataSourceId": "dataSource_1",
-          "dataViewId": "dataView_2"
+          "dataViewId": "dataView_2",
+          "fields": [
+            "name"
+          ]
         }
       ],
       "useDataSourcesEnabled": true
@@ -2836,5 +2839,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1636606050782
+  "timestamp": 1636606229989
 }
