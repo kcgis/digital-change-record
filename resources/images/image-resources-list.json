@@ -1,0 +1,26 @@
+{
+  "1636578093701": {
+    "originalName": "logo_bw.png",
+    "fileName": "1636578093701.png",
+    "size": 136403,
+    "url": "${appResourceUrl}/images/widget_21/1636578093701.png",
+    "created": 1636578093701,
+    "resourcesPrefix": "images/widget_21",
+    "referedIds": [],
+    "originId": "1636578093701",
+    "fileFormat": "image/png",
+    "isUseCompress": false
+  },
+  "1636578227822": {
+    "originalName": "KCO_logo_mono.png",
+    "fileName": "1636578227822.png",
+    "size": 30275,
+    "url": "${appResourceUrl}/images/widget_23/1636578227822.png",
+    "created": 1636578227822,
+    "resourcesPrefix": "images/widget_23",
+    "referedIds": [],
+    "originId": "1636578227822",
+    "fileFormat": "image/png",
+    "isUseCompress": false
+  }
+}
