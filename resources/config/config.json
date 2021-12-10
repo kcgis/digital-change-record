@@ -376,8 +376,35 @@
     },
     "layout_11": {
       "type": "FIXED",
-      "content": {},
-      "order": []
+      "content": {
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_42",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      },
+      "order": [
+        "3"
+      ]
     },
     "layout_13": {
       "type": "FIXED",
@@ -938,6 +965,140 @@
           }
         }
       }
+    },
+    "layout_33": {
+      "label": "Selected",
+      "type": "FIXED"
+    },
+    "layout_34": {
+      "label": "Hover",
+      "type": "FIXED"
+    },
+    "layout_36": {
+      "type": "FIXED",
+      "content": {},
+      "order": [],
+      "label": "Regular"
+    },
+    "layout_37": {
+      "type": "FIXED",
+      "label": "First",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "65.1%",
+            "top": "13.2%",
+            "bottom": "0.0%",
+            "width": "34.9%",
+            "height": "86.8%"
+          },
+          "widgetId": "widget_39",
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "65.1%",
+            "top": "0.1%",
+            "bottom": "86.9%",
+            "width": "34.9%",
+            "height": "13.0%"
+          },
+          "widgetId": "widget_40",
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "34.9%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.1%",
+            "width": "65.1%",
+            "height": "99.9%"
+          },
+          "widgetId": "widget_43",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "layout_38": {
+      "type": "FIXED",
+      "label": "Second",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_41"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_39": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
     }
   },
   "exbVersion": "1.6.0",
@@ -2429,6 +2590,299 @@
           ]
         }
       ]
+    },
+    "widget_39": {
+      "uri": "widgets/common/list/",
+      "version": "1.6.0",
+      "label": "Cadastre Records",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE7",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 445.44,
+                "height": 64
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 445.44,
+                "height": 64
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 445.44,
+                "height": 64
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "searchFields": null,
+        "filters": null,
+        "sorts": null,
+        "isShowAutoRefresh": false
+      },
+      "id": "widget_39",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_36"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_1-ord_fabric_hosted_1412",
+          "mainDataSourceId": "dataSource_1-ord_fabric_hosted_1412",
+          "rootDataSourceId": "dataSource_1",
+          "fields": []
+        }
+      ]
+    },
+    "widget_40": {
+      "uri": "widgets/common/filter/",
+      "version": "1.6.0",
+      "label": "Township Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": true,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Records",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-Change_Record_View_3764",
+              "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "recordeddate"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "recordeddate",
+                  "operator": "DATE_OPERATOR_IS_BETWEEN",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DOUBLE_DATE_PICKER",
+                    "value": [
+                      {
+                        "value": 1641038400000,
+                        "label": "Jan 1, 2022"
+                      },
+                      {
+                        "value": "TODAY",
+                        "label": "Today"
+                      }
+                    ]
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Date Recorded",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "(((recordeddate BETWEEN timestamp '2022-01-01 06:00:00' AND timestamp '2021-12-11 06:00:00') AND (recordeddate <> timestamp '2021-12-11 06:00:00')))",
+              "displaySQL": "(Date Recorded is between Jan 1, 2022 and Today)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ]
+      },
+      "id": "widget_40",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Change_Record_View_3764",
+          "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "recordeddate"
+          ]
+        }
+      ]
+    },
+    "widget_41": {
+      "uri": "widgets/common/table/",
+      "version": "1.6.0",
+      "label": "Table 1",
+      "config": {
+        "layersConfig": [],
+        "arrangeType": "TABS"
+      },
+      "id": "widget_41"
+    },
+    "widget_42": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.6.0",
+      "label": "Sidebar 3",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "SECOND",
+        "overlay": true,
+        "size": "300px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": true,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "DOWN",
+          "offsetX": 0,
+          "offsetY": -15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 60,
+          "height": 15,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "#FFFFFF"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary-700)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "92px 92px 0 0"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "92px 92px 0 0"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_42",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_37"
+        },
+        "SECOND": {
+          "LARGE": "layout_38"
+        }
+      }
+    },
+    "widget_43": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.6.0",
+      "label": "Map 1",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": true,
+          "canSearch": true,
+          "canNavigation": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_43",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_39"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
     }
   },
   "widgetsManifest": {},
@@ -2671,10 +3125,17 @@
           "id": "dataSource_1-17d0bd15299-layer-7",
           "type": "FEATURE_LAYER",
           "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Current_Cadastral_Features/FeatureServer/1",
-          "geometryType": "esriGeometryPolygon"
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {}
         }
       },
       "isHidden": false
+    },
+    "dataSource_2": {
+      "id": "dataSource_2",
+      "type": "WEB_MAP",
+      "itemId": "63fe7a4810654b22ac246516ca5a7d17",
+      "portalUrl": "https://maps.co.kendall.il.us/portal"
     }
   },
   "messageConfigs": {
@@ -3090,5 +3551,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1636776530636
+  "timestamp": 1639168289154
 }
