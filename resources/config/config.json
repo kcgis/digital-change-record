@@ -873,10 +873,10 @@
             "hCenter": false
           },
           "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
+            "left": "0.00%",
+            "right": "51.50%",
             "top": "0.0%",
-            "bottom": "51.50%",
+            "bottom": "0.00%",
             "width": "100.0%",
             "height": "52.0%"
           },
@@ -899,9 +899,9 @@
             "hCenter": false
           },
           "bbox": {
-            "left": "0.00%",
+            "left": "51.50%",
             "right": "0.00%",
-            "top": "51.50%",
+            "top": "0.00%",
             "bottom": "0.00%",
             "width": "95.0%",
             "height": "47.0%"
@@ -912,12 +912,10 @@
         "2": {
           "type": "WIDGET",
           "bbox": {
-            "left": "33.9%",
-            "right": "0.00%",
+            "right": "48.50%",
             "top": "50%",
-            "bottom": "47.3%",
-            "width": "100.00%",
-            "height": "3.00%"
+            "width": "3.00%",
+            "height": "100.00%"
           },
           "widgetId": "widget_81",
           "setting": {
@@ -926,7 +924,7 @@
               "left": true,
               "top": false,
               "bottom": true,
-              "height": "CUSTOM"
+              "width": "CUSTOM"
             },
             "vCenter": true
           }
@@ -1132,10 +1130,10 @@
           "bbox": {
             "left": "0.0%",
             "right": "81.7%",
-            "top": "-0.1%",
+            "top": "0.00%",
             "bottom": "84.9%",
-            "width": "18.3%",
-            "height": "15.1%"
+            "width": "135px",
+            "height": "50px"
           },
           "widgetId": "widget_83"
         }
@@ -1150,62 +1148,42 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "652px",
-            "right": "1052px",
-            "top": "45px",
-            "bottom": "445px",
+            "left": "429px",
+            "right": "829px",
+            "top": "168px",
+            "bottom": "568px",
             "width": "400px",
-            "height": 683
+            "height": "750px"
           },
-          "widgetId": "widget_84",
+          "widgetId": "widget_93",
           "setting": {
             "heightMode": "fixed"
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
-    },
-    "layout_66": {
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0",
-        "1"
-      ],
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": 0,
-            "width": 6,
-            "height": "400px"
-          },
-          "widgetId": "widget_85",
-          "setting": {
-            "heightMode": "fit"
           }
         },
         "1": {
           "type": "WIDGET",
-          "bbox": {
-            "left": 6,
-            "width": 6,
-            "height": "275px"
-          },
-          "widgetId": "widget_86",
           "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          }
+            "style": {},
+            "isFloating": true,
+            "lockParent": true,
+            "floatingArea": 7,
+            "offsetX": 10,
+            "offsetY": 10
+          },
+          "bbox": {
+            "top": 0,
+            "left": 0,
+            "right": 0,
+            "width": "400px",
+            "height": "700px"
+          },
+          "widgetId": "widget_97"
         }
-      }
-    },
-    "layout_67": {
-      "type": "FIXED",
-      "label": "Map FixedLayout"
+      },
+      "order": [
+        "0",
+        "1"
+      ]
     },
     "layout_69": {
       "label": "Selected",
@@ -1215,80 +1193,287 @@
       "label": "Hover",
       "type": "FIXED"
     },
-    "layout_71": {
+    "layout_72": {
       "type": "FIXED",
       "content": {
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "top": "14.65%",
-            "width": "96px",
-            "height": "96px",
-            "left": "50%"
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "80.00%",
+            "height": "100%"
           },
-          "widgetId": "widget_87",
+          "widgetId": "widget_90",
           "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": true,
-            "widthMode": "ratio",
-            "aspectRatio": 1,
             "autoProps": {
               "left": false,
-              "right": true
-            }
-          },
-          "isPending": false
-        },
-        "2": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "14.65%",
-            "top": "175px",
-            "width": "158px",
-            "height": "10.99%",
-            "right": "14.65%",
-            "bottom": "8.79%"
-          },
-          "widgetId": "widget_88",
-          "setting": {
-            "lockParent": true,
-            "vCenter": false,
-            "hCenter": false,
-            "autoProps": {
-              "width": true,
-              "top": true
-            }
-          },
-          "isPending": false
-        },
-        "3": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "7.58%",
-            "top": "53.11%",
-            "width": "154px",
-            "height": "50px",
-            "right": "7.58%",
-            "bottom": "25.64%"
-          },
-          "widgetId": "widget_89",
-          "setting": {
-            "lockParent": true,
-            "autoProps": {
-              "width": true,
-              "height": true
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "CUSTOM"
             },
-            "vCenter": false
+            "vCenter": false,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_73": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_91",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "625.00px"
+          },
+          "widgetId": "widget_92",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
           }
         }
       },
       "order": [
         "0",
-        "2",
-        "3"
+        "1"
+      ]
+    },
+    "layout_74": {
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "1"
+      ],
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 5,
+            "width": 7,
+            "height": "478px"
+          },
+          "widgetId": "widget_95",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        }
+      }
+    },
+    "layout_75": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_76": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "308px",
+            "height": "350.00px"
+          },
+          "widgetId": "widget_94"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "308px",
+            "height": "350.00px"
+          },
+          "widgetId": "widget_96"
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_77": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_79": {
+      "label": "Selected",
+      "type": "FIXED"
+    },
+    "layout_80": {
+      "label": "Hover",
+      "type": "FIXED"
+    },
+    "layout_81": {
+      "type": "FIXED",
+      "label": "Default",
+      "order": [
+        "2"
+      ],
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_101",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          }
+        }
+      }
+    },
+    "layout_83": {
+      "label": "Selected",
+      "type": "FIXED"
+    },
+    "layout_84": {
+      "label": "Hover",
+      "type": "FIXED"
+    },
+    "layout_86": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "9.5%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "90.5%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_99",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
       ],
       "label": "Regular"
+    },
+    "layout_87": {
+      "type": "FIXED",
+      "label": "First",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": true,
+              "bottom": false
+            },
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "95.00%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_100"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_88": {
+      "type": "FIXED",
+      "label": "Second",
+      "content": {
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "20.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_98"
+        }
+      },
+      "order": [
+        "1"
+      ]
     }
   },
   "exbVersion": "1.6.0",
@@ -1311,7 +1496,7 @@
           "canNavigation": false
         },
         "isUseCustomMapState": false,
-        "disablePopUp": true,
+        "disablePopUp": false,
         "selectionHighlightColor": "#FF9F0A"
       },
       "id": "widget_2",
@@ -1344,8 +1529,8 @@
         "vertical": false,
         "advanced": true,
         "standard": {
-          "textAlign": "right",
-          "gap": "20px",
+          "textAlign": "left",
+          "gap": "30px",
           "showText": true,
           "showIcon": false,
           "iconPosition": "start"
@@ -1663,7 +1848,8 @@
           "section": "section_2",
           "views": [
             "view_3",
-            "view_4"
+            "view_4",
+            "view_5"
           ]
         },
         "display": {
@@ -1779,7 +1965,7 @@
       "version": "1.6.0",
       "label": "TB Text",
       "config": {
-        "text": "<p style=\"text-align: left;\">This page will show historic ordinance-based changes to taxing bodies within Kendall County.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\" class=\"ql-indent-1\"><em>What is a \"taxing body\"?</em></p><p style=\"text-align: left;\" class=\"ql-indent-1\"><br></p><p style=\"text-align: left;\">A taxing body is any entity that levies taxes. When you look at your property taxes, you can see that a certain amount goes to the schools, another amount to the library district, etc. Those entities are the taxing bodies your property falls within.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>Navigating</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will zoom to the relevant area and filter the maps to show the features involved.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are section headers. Clicking either of these will change the type of records displayed in the list.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document and ordinance numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Below the list is a widget for filtering the records list based on its recorded date.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>The Map</u></strong></p><p style=\"text-align: left;\">In the center of the screen is the map. This map shows any features which were annexed or deannexed by the selected document.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>PINs List</u></strong></p><p style=\"text-align: left;\">The list at the right shows the PINs involved in the selected ordinance. Click on a PIN in this list to see it flash on the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">This list can be collapsed by clicking the arrow tab on the left edge of the list.</p>",
+        "text": "<p style=\"text-align: left;\">This page will show historic ordinance-based changes to taxing bodies within Kendall County.</p><p style=\"text-align: left;\"><br></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>What is a \"taxing body\"?</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">A taxing body is any entity that levies taxes. When you look at your property taxes, you can see that a certain amount goes to the schools, another amount to the library district, etc. Those entities are the taxing bodies your property falls within.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>Navigating</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will zoom to the relevant area and filter the maps to show the features involved.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are filters. You can toggle the different record types on and off, and set a range for the recorded date, and the list will update accordingly.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document and ordinance numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>The Map</u></strong></p><p style=\"text-align: left;\">In the center of the screen is the map. This map shows any features which were annexed or deannexed by the selected document.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>PINs List</u></strong></p><p style=\"text-align: left;\">The list at the right shows the PINs involved in the selected ordinance. Click on a PIN in this list to see it flash on the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">This list can be collapsed by clicking the arrow tab on the left edge of the list.</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -1805,7 +1991,7 @@
     "widget_52": {
       "uri": "widgets/common/list/",
       "version": "1.6.0",
-      "label": "Other Taxing Record List",
+      "label": "Taxing Body Record List",
       "config": {
         "maxItems": 100,
         "space": 10,
@@ -1884,8 +2070,8 @@
         "navigatorOpen": false,
         "filterOpen": false,
         "searchOpen": true,
-        "searchFields": "name,plats,ordinance",
-        "searchHint": "Doc #, Ordinance, or Flat File",
+        "searchFields": "name,ordinance",
+        "searchHint": "Document or Ordinance Number",
         "sorts": [
           {
             "ruleOptionName": "New to Old",
@@ -1921,26 +2107,25 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
+          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "rootDataSourceId": "dataSource_1",
           "fields": [
             "recordeddate",
             "name",
-            "plats",
             "ordinance"
-          ],
-          "dataViewId": "dataView_4"
+          ]
         }
       ],
-      "enableDataAction": false
+      "enableDataAction": false,
+      "outputDataSources": []
     },
     "widget_53": {
       "uri": "widgets/common/text/",
       "version": "1.6.0",
-      "label": "Other Record Details",
+      "label": "Taxing Body Record Details",
       "config": {
-        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"4aaafa96_f39b_0cb4_403d_822f801dee42\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_4\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_4%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Document}﻿</span>﻿</exp></strong>  |  <exp data-uniqueid=\"345605a1_e01a_6815_dbdf_b5a5657b9edd\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_4\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_4%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Date Recorded}﻿</span>﻿</exp> </p><p>Ordinance <exp data-uniqueid=\"d1c66c46_82d6_3334_5551_1eb215175e76\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_4\" data-expression=\"%7B%22name%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_4%22%2C%22jimuFieldName%22%3A%22ordinance%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Associated Ordinance}</span>﻿</exp> </p><p><exp data-uniqueid=\"5c3e42d7_5be4_8d4b_61ba_6ed11fc2c48c\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_4\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_4%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Record Type}﻿</span>﻿</exp>   </p>",
+        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a4250082_a2c6_bf97_ade5_b7228b771bed\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Document}</span>﻿</exp></strong>  |  <exp data-uniqueid=\"7f49dbc2_9eeb_4a5a_217a_1856d76f3eb2\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Date Recorded}</span>﻿</exp>  </p><p>Ordinance <exp data-uniqueid=\"2c0b3f3e_a4b3_9d73_38a5_d3e7e7b3f46d\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22ordinance%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Associated Ordinance}</span>﻿</exp>  </p><p><exp data-uniqueid=\"5ea08ef7_e97b_9ecb_2d3c_d3ace25bc356\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Record Type}</span>﻿</exp>    </p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -1950,10 +2135,9 @@
       "id": "widget_53",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
+          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "rootDataSourceId": "dataSource_1",
-          "dataViewId": "dataView_4",
           "fields": [
             "name",
             "recordeddate",
@@ -2020,18 +2204,17 @@
       "id": "widget_54",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_1",
-          "dataViewId": "dataView_4"
-        },
-        {
           "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_3",
           "fields": [
             "name"
           ],
           "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "dataViewId": "dataView_3",
+          "rootDataSourceId": "dataSource_1"
+        },
+        {
+          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "rootDataSourceId": "dataSource_1"
         }
       ],
@@ -2285,8 +2468,10 @@
           "canNavigation": false
         },
         "isUseCustomMapState": false,
-        "disablePopUp": false,
-        "selectionHighlightColor": "#FF9F0A"
+        "disablePopUp": true,
+        "selectionHighlightColor": "#ffffff",
+        "initialMapDataSourceID": "dataSource_3",
+        "initialMapState": null
       },
       "id": "widget_62",
       "layouts": {
@@ -2296,8 +2481,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1",
-          "mainDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
         }
       ],
       "style": {
@@ -2400,8 +2585,6 @@
         "filters": null,
         "sqlExprObj": null,
         "sortFields": null,
-        "searchFields": null,
-        "sorts": null,
         "isShowAutoRefresh": false
       },
       "id": "widget_64",
@@ -2415,9 +2598,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-          "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_3-17d0bced55c-layer-6",
+          "mainDataSourceId": "dataSource_3-17d0bced55c-layer-6",
+          "rootDataSourceId": "dataSource_3",
           "fields": []
         }
       ]
@@ -2427,7 +2610,7 @@
       "version": "1.6.0",
       "label": "PIN",
       "config": {
-        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"ba8bb877_a87f_5230_7014_22cee2f83bcb\" data-dsid=\"dataSource_1-17d0bced55c-layer-6\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17d0bced55c-layer-6%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{PIN}﻿</span>﻿</exp> </p>",
+        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"d993cff3_9f4a_4c08_f361_8007bbc6fac8\" data-dsid=\"dataSource_3-17d0bced55c-layer-6\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17d0bced55c-layer-6%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{PIN}</span>﻿</exp> </p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -2437,9 +2620,9 @@
       "id": "widget_65",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-          "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_3-17d0bced55c-layer-6",
+          "mainDataSourceId": "dataSource_3-17d0bced55c-layer-6",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "pin"
           ]
@@ -2528,8 +2711,8 @@
         "isShowAutoRefresh": false,
         "navigatorOpen": false,
         "searchOpen": true,
-        "searchFields": "name,plats,ordinance",
-        "searchHint": "Doc #, Ordinance, or Flat File",
+        "searchFields": "name,ordinance",
+        "searchHint": "Document or Ordinance Number",
         "sortOpen": true,
         "sorts": [
           {
@@ -2565,26 +2748,25 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "recordeddate",
             "name",
-            "plats",
             "ordinance"
-          ],
-          "dataViewId": "dataView_2"
+          ]
         }
       ],
-      "enableDataAction": false
+      "enableDataAction": false,
+      "outputDataSources": []
     },
     "widget_74": {
       "uri": "widgets/common/text/",
       "version": "1.6.0",
       "label": "Zoning Record Details",
       "config": {
-        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"66dc9d96_8c32_d40c_b1ea_e16664722964\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_2\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_2%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Document}﻿﻿﻿﻿﻿</span>﻿</exp></strong>  |  <exp data-uniqueid=\"586955a5_e242_9775_0800_9236b71077be\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_2\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_2%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Date Recorded}﻿﻿</span>﻿</exp> </p><p>Ordinance <exp data-uniqueid=\"e10399cf_efdd_1c9a_38f0_cd0516098946\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_2\" data-expression=\"%7B%22name%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_2%22%2C%22jimuFieldName%22%3A%22ordinance%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Associated Ordinance}</span>﻿</exp> </p><p><exp data-uniqueid=\"02daccb1_1c17_6f94_a0df_a510be563759\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18-dataView_2\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18-dataView_2%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Record Type}﻿</span>﻿</exp> </p>",
+        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a0fcca42_398a_2a71_3379_c873e05daabd\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Document}</span>﻿</exp></strong>  |  <exp data-uniqueid=\"1376e21d_fc77_ffba_1f30_9593e3171c0b\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Date Recorded}</span>﻿</exp>  </p><p>Ordinance <exp data-uniqueid=\"29e1ed98_527f_f0f7_e44b_1d73eb794715\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22ordinance%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Associated Ordinance}</span>﻿</exp>  </p><p><exp data-uniqueid=\"56f5edc3_80bb_199b_4b2e_737e895b572b\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Record Type}</span>﻿</exp>  </p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -2594,10 +2776,9 @@
       "id": "widget_74",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_1",
-          "dataViewId": "dataView_2",
+          "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "name",
             "recordeddate",
@@ -2664,13 +2845,9 @@
       "id": "widget_75",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_1",
-          "dataViewId": "dataView_2",
-          "fields": [
-            "name"
-          ]
+          "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "rootDataSourceId": "dataSource_3"
         }
       ],
       "useDataSourcesEnabled": true
@@ -2690,26 +2867,12 @@
         "omitInternalStyle": true,
         "filterItems": [
           {
-            "icon": {
-              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
-              "properties": {
-                "color": "",
-                "filename": "filter.svg",
-                "originalName": "filter.svg",
-                "inlineSvg": true,
-                "path": [
-                  "general",
-                  "filter"
-                ],
-                "size": 14
-              }
-            },
-            "name": "Zoning",
+            "icon": null,
+            "name": "Records",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
                 "recordeddate"
               ]
@@ -2747,7 +2910,7 @@
                   "caseSensitive": false
                 }
               ],
-              "sql": "(((recordeddate BETWEEN timestamp '2021-01-01 06:00:00' AND timestamp '2021-12-28 06:00:00') AND (recordeddate <> timestamp '2021-12-28 06:00:00')))",
+              "sql": "(((recordeddate BETWEEN timestamp '2021-01-01 06:00:00' AND timestamp '2021-12-29 06:00:00') AND (recordeddate <> timestamp '2021-12-29 06:00:00')))",
               "displaySQL": "(Date Recorded is between 01/1/2021 and Today)"
             },
             "autoApplyWhenWidgetOpen": true,
@@ -2758,13 +2921,12 @@
       "id": "widget_76",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "recordeddate"
-          ],
-          "dataViewId": "dataView_2"
+          ]
         }
       ]
     },
@@ -2784,11 +2946,10 @@
         "filterItems": [
           {
             "icon": null,
-            "name": "Incorporated Areas",
+            "name": "Incorporated",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
               "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "recordtype"
@@ -2828,9 +2989,8 @@
             "icon": null,
             "name": "Other Taxing Bodies",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
               "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_4",
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "recordtype"
@@ -2872,10 +3032,9 @@
       "id": "widget_77",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
+          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
           "rootDataSourceId": "dataSource_1",
-          "dataViewId": "dataView_4",
           "fields": [
             "recordtype"
           ]
@@ -2976,12 +3135,11 @@
         "filterItems": [
           {
             "icon": null,
-            "name": "Zoning",
+            "name": "Zoning Change",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
               "fields": [
                 "recordtype"
               ]
@@ -3018,14 +3176,42 @@
           },
           {
             "icon": null,
-            "name": "Zoning Permits",
+            "name": "Zoning Permit",
             "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "rootDataSourceId": "dataSource_1",
-              "dataViewId": "dataView_2"
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "recordtype"
+              ]
             },
-            "sqlExprObj": null,
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "recordtype",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": [
+                      {
+                        "value": "Zoning Permit",
+                        "label": "Zoning Permit"
+                      }
+                    ]
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "((UPPER(recordtype) = 'ZONING PERMIT'))",
+              "displaySQL": "(Record Type = 'ZONING PERMIT')"
+            },
             "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
           }
@@ -3034,10 +3220,9 @@
       "id": "widget_79",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "dataViewId": "dataView_2",
-          "rootDataSourceId": "dataSource_1",
+          "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+          "rootDataSourceId": "dataSource_3",
           "fields": [
             "recordtype"
           ]
@@ -3056,8 +3241,10 @@
           "canNavigation": false
         },
         "isUseCustomMapState": false,
-        "disablePopUp": false,
-        "selectionHighlightColor": "#FF9F0A"
+        "disablePopUp": true,
+        "selectionHighlightColor": "#ffffff",
+        "initialMapDataSourceID": "dataSource_3",
+        "initialMapState": null
       },
       "id": "widget_80",
       "layouts": {
@@ -3067,8 +3254,8 @@
       },
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_1",
-          "mainDataSourceId": "dataSource_1"
+          "dataSourceId": "dataSource_3",
+          "mainDataSourceId": "dataSource_3"
         }
       ],
       "style": {
@@ -3084,7 +3271,7 @@
       "version": "1.6.0",
       "label": "Zoning Map Divider",
       "config": {
-        "direction": "Horizontal",
+        "direction": "Vertical",
         "strokeStyle": {
           "type": "Style0",
           "color": "var(--dark)",
@@ -3099,7 +3286,7 @@
           "pointSize": 4
         },
         "themeStyle": {
-          "quickStyleType": "Default"
+          "quickStyleType": "None"
         }
       },
       "id": "widget_81"
@@ -3109,7 +3296,7 @@
       "version": "1.6.0",
       "label": "Text 1",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 2vw; color: var(--dark); letter-spacing: 2px;\">BEFORE</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"letter-spacing: 2px; color: var(--dark); font-size: 26px;\">BEFORE</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -3132,7 +3319,7 @@
       "version": "1.6.0",
       "label": "Text 1 copy",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"letter-spacing: 2px; color: var(--dark); font-size: 2vw;\">AFTER</strong></p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: var(--dark); letter-spacing: 2px;\">AFTER</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -3150,10 +3337,62 @@
         }
       }
     },
-    "widget_84": {
+    "widget_90": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Z Content",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_90",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_73"
+        }
+      }
+    },
+    "widget_91": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Z Header",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Using the Zoning Page</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_91"
+    },
+    "widget_92": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Z Text",
+      "config": {
+        "text": "<p style=\"text-align: left;\">This page will show historic ordinance-based changes to zoning in Kendall County, as well as the establishing and revoking of zoning permits.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>Navigating</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will zoom to the relevant area and filter the maps to show the features involved.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are filters. You can toggle the different record types on and off, and set a range for the recorded date, and the list will update accordingly.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document and ordinance numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>The Maps</u></strong></p><p style=\"text-align: left;\">In the center of the screen are the Before and After maps. These show zoning features established and/or revoked by a given record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>PINs List</u></strong></p><p style=\"text-align: left;\">The list at the right shows the PINs involved in the selected ordinance. Click on a PIN in this list to see it flash on the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">This list can be collapsed by clicking the arrow tab on the left edge of the list.</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_92"
+    },
+    "widget_93": {
       "uri": "widgets/layout/row/",
       "version": "1.6.0",
-      "label": "Block 1",
+      "label": "Maps",
       "config": {
         "space": 10,
         "style": {
@@ -3165,31 +3404,40 @@
           }
         }
       },
-      "id": "widget_84",
+      "id": "widget_93",
       "layouts": {
         "DEFAULT": {
-          "LARGE": "layout_66"
+          "LARGE": "layout_74"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--secondary)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
         }
       }
     },
-    "widget_85": {
+    "widget_94": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.6.0",
-      "label": "Cadastre",
+      "label": "Cadastre Before",
       "config": {
         "toolConifg": {
-          "canZoom": true,
-          "canHome": true,
-          "canSearch": true,
-          "canNavigation": true
+          "canZoom": false,
+          "canHome": false,
+          "canSearch": false,
+          "canNavigation": false
         },
         "isUseCustomMapState": false,
-        "disablePopUp": true
+        "disablePopUp": false
       },
-      "id": "widget_85",
+      "id": "widget_94",
       "layouts": {
         "MapFixedLayout": {
-          "LARGE": "layout_67"
+          "LARGE": "layout_75"
         }
       },
       "useDataSources": [
@@ -3199,10 +3447,92 @@
         }
       ]
     },
-    "widget_86": {
+    "widget_95": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Map Column",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_95",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_76"
+        }
+      }
+    },
+    "widget_96": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.6.0",
+      "label": "Cadastre After",
+      "config": {
+        "toolConifg": {
+          "canZoom": false,
+          "canHome": false,
+          "canSearch": false,
+          "canNavigation": false
+        },
+        "isUseCustomMapState": false,
+        "disablePopUp": true
+      },
+      "id": "widget_96",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_77"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2",
+          "mainDataSourceId": "dataSource_2"
+        }
+      ]
+    },
+    "widget_97": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.6.0",
+      "label": "Records Panel",
+      "id": "widget_97",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_81"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--org-header-bg)",
+          "width": "2px"
+        },
+        "boxShadow": {
+          "offsetX": "3px",
+          "offsetY": "3px",
+          "blur": "2px",
+          "spread": "2px"
+        }
+      }
+    },
+    "widget_98": {
       "uri": "widgets/common/list/",
       "version": "1.6.0",
-      "label": "List 1",
+      "label": "Cadastre Records",
       "config": {
         "maxItems": 100,
         "space": 10,
@@ -3210,20 +3540,20 @@
         "isItemStyleConfirm": true,
         "isInitialed": true,
         "pageStyle": "SCROLL",
-        "itemStyle": "STYLE0",
+        "itemStyle": "STYLE7",
         "hoverType": "HOVER0",
         "selectedStyle": "STYLE0",
         "differentOddEven": false,
         "scrollBarOpen": true,
-        "direction": "HORIZON",
+        "direction": "VERTICAL",
         "alignType": "CENTER",
         "scrollStep": 2,
         "cardConfigs": {
           "REGULAR": {
             "cardSize": {
               "LARGE": {
-                "width": 200,
-                "height": 275
+                "width": 400,
+                "height": 59
               }
             },
             "enable": true,
@@ -3239,8 +3569,8 @@
           "HOVER": {
             "cardSize": {
               "LARGE": {
-                "width": 200,
-                "height": 275
+                "width": 400,
+                "height": 59
               }
             },
             "enable": false,
@@ -3256,8 +3586,8 @@
           "SELECTED": {
             "cardSize": {
               "LARGE": {
-                "width": 200,
-                "height": 275
+                "width": 400,
+                "height": 59
               }
             },
             "backgroundStyle": {
@@ -3274,17 +3604,40 @@
         "style": {
           "id": "default"
         },
+        "searchFields": "name",
         "filters": null,
-        "sqlExprObj": null,
-        "sortFields": null,
-        "searchFields": null,
-        "sorts": null,
-        "isShowAutoRefresh": false
+        "sorts": [
+          {
+            "ruleOptionName": "Recently Processed",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "processdate",
+                "order": "DESC"
+              }
+            ]
+          },
+          {
+            "ruleOptionName": "Recently Recorded",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "recordeddate",
+                "order": "DESC"
+              }
+            ]
+          }
+        ],
+        "isShowAutoRefresh": false,
+        "searchOpen": true,
+        "searchHint": "Search by Doc #",
+        "showSelectedOnlyOpen": false,
+        "sortOpen": true
       },
-      "id": "widget_86",
+      "id": "widget_98",
       "layouts": {
         "REGULAR": {
-          "LARGE": "layout_71"
+          "LARGE": "layout_86"
         },
         "SELECTED": {},
         "HOVER": {}
@@ -3295,97 +3648,178 @@
           "dataSourceId": "dataSource_2-Change_Record_View_3764",
           "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
           "rootDataSourceId": "dataSource_2",
-          "fields": []
-        }
-      ]
-    },
-    "widget_87": {
-      "uri": "widgets/common/image/",
-      "version": "1.6.0",
-      "label": "Image 1",
-      "config": {
-        "functionConfig": {
-          "altText": "",
-          "toolTip": "",
-          "linkParam": {},
-          "scale": "Fit",
-          "imageParam": {
-            "cropParam": {
-              "cropShape": "circle",
-              "svgPath": "M28 14c0 7.732-6.268 14-14 14S0 21.732 0 14 6.268 0 14 0s14 6.268 14 14z",
-              "svgViewBox": "0 0 28 28"
-            }
-          }
-        },
-        "styleConfig": {}
-      },
-      "id": "widget_87",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-Change_Record_View_3764",
-          "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
-          "rootDataSourceId": "dataSource_2"
+          "fields": [
+            "processdate",
+            "recordeddate",
+            "name"
+          ]
         }
       ],
-      "useDataSourcesEnabled": true
+      "enableDataAction": false
     },
-    "widget_88": {
-      "uri": "widgets/common/button/",
-      "version": "1.6.0",
-      "label": "Button 1",
-      "config": {
-        "functionConfig": {
-          "text": "Button",
-          "toolTip": "",
-          "linkParam": {}
-        },
-        "styleConfig": {
-          "name": "Default",
-          "themeStyle": {
-            "className": "jimu-widget d-block",
-            "color": "primary"
-          },
-          "customStyle": {
-            "regular": {},
-            "hover": {},
-            "clicked": {}
-          }
-        }
-      },
-      "id": "widget_88",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-Change_Record_View_3764",
-          "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
-          "rootDataSourceId": "dataSource_2"
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
-    "widget_89": {
+    "widget_99": {
       "uri": "widgets/common/text/",
       "version": "1.6.0",
       "label": "Text 2",
       "config": {
-        "text": "<p style=\"text-align: center;\"><span style=\"color: var(--dark-800); font-size: 16px;\">﻿</span><exp data-uniqueid=\"36fec10c_455b_09a5_6eff_0b0c9ed1fbfb\" data-dsid=\"dataSource_2-Change_Record_View_3764\" data-expression=\"%7B%22name%22%3A%22%7BDocument%20Number%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%20Number%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Change_Record_View_3764%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Document Number}</span>﻿</exp> </p>",
-        "placeholder": "<p style=\"text-align: center;\"><span style=\"font-size: 16px;color: var(--dark-800);\">Double click to edit text</span></p>",
+        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"674cbb18_c8ca_b0f1_fc87_955ff84d3c9f\" data-dsid=\"dataSource_2-Change_Record_View_3764\" data-expression=\"%7B%22name%22%3A%22%7BDocument%20Number%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%20Number%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Change_Record_View_3764%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Document Number}﻿</span>﻿</exp></strong></p><p>Processed <exp data-uniqueid=\"8101eb42_92b1_466a_e649_9041705cfb9d\" data-dsid=\"dataSource_2-Change_Record_View_3764\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Processed%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Processed%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Change_Record_View_3764%22%2C%22jimuFieldName%22%3A%22processdate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Date Processed}﻿</span>﻿</exp> </p>",
+        "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_89",
+      "id": "widget_99",
       "useDataSources": [
         {
           "dataSourceId": "dataSource_2-Change_Record_View_3764",
           "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
           "rootDataSourceId": "dataSource_2",
           "fields": [
-            "name"
+            "name",
+            "processdate"
           ]
         }
       ],
       "useDataSourcesEnabled": true
+    },
+    "widget_100": {
+      "uri": "widgets/common/filter/",
+      "version": "1.6.0",
+      "label": "Cadastre Record Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "INLINE",
+        "triggerType": "BUTTON",
+        "omitInternalStyle": true,
+        "filterItems": [
+          {
+            "icon": null,
+            "name": "Records",
+            "useDataSource": {
+              "dataSourceId": "dataSource_2-Change_Record_View_3764",
+              "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "township"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "township",
+                  "operator": "STRING_OPERATOR_IS_ANY_OF",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "MULTIPLE",
+                    "inputEditor": "MULTIPLE_PILL_WRAP_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Township is",
+                    "display": "BLOCK",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Township is any of (?))"
+            },
+            "autoApplyWhenWidgetOpen": false,
+            "collapseFilterExprs": false
+          }
+        ],
+        "wrap": true
+      },
+      "id": "widget_100",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Change_Record_View_3764",
+          "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+          "rootDataSourceId": "dataSource_2",
+          "fields": [
+            "township"
+          ]
+        }
+      ]
+    },
+    "widget_101": {
+      "uri": "widgets/layout/sidebar/",
+      "version": "1.6.0",
+      "label": "List and Filter",
+      "config": {
+        "direction": "VERTICAL",
+        "collapseSide": "FIRST",
+        "overlay": false,
+        "size": "175px",
+        "divider": {
+          "visible": true,
+          "lineStyle": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
+          }
+        },
+        "resizable": false,
+        "toggleBtn": {
+          "visible": true,
+          "icon": "UP",
+          "offsetX": 0,
+          "offsetY": 15,
+          "position": "CENTER",
+          "iconSize": 14,
+          "width": 60,
+          "height": 15,
+          "color": {
+            "normal": {
+              "icon": {
+                "useTheme": false,
+                "color": "#FFFFFF"
+              },
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary)"
+              }
+            },
+            "hover": {
+              "bg": {
+                "useTheme": true,
+                "color": "var(--primary-800)"
+              }
+            }
+          },
+          "expandStyle": {
+            "style": {
+              "borderRadius": "0 0 92px 92px"
+            }
+          },
+          "collapseStyle": {
+            "style": {
+              "borderRadius": "0 0 92px 92px"
+            }
+          }
+        },
+        "defaultState": 1
+      },
+      "id": "widget_101",
+      "layouts": {
+        "FIRST": {
+          "LARGE": "layout_87"
+        },
+        "SECOND": {
+          "LARGE": "layout_88"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -3395,14 +3829,24 @@
       "label": "What is This?",
       "layout": {
         "LARGE": "layout_19"
-      }
+      },
+      "lazyLoad": true
     },
     "view_4": {
       "id": "view_4",
       "label": "Taxing Bodies",
       "layout": {
         "LARGE": "layout_21"
-      }
+      },
+      "lazyLoad": true
+    },
+    "view_5": {
+      "id": "view_5",
+      "label": "Zoning",
+      "layout": {
+        "LARGE": "layout_72"
+      },
+      "lazyLoad": true
     }
   },
   "sections": {
@@ -3411,7 +3855,8 @@
       "label": "Guide Sections",
       "views": [
         "view_3",
-        "view_4"
+        "view_4",
+        "view_5"
       ],
       "arrowsNav": {
         "visible": true,
@@ -3591,157 +4036,16 @@
           "portalUrl": "https://maps.co.kendall.il.us/portal",
           "itemId": "dd83269914d3486da0a70d7173cdef2d",
           "geometryType": "esriGeometryPolygon",
-          "dataViews": {
-            "dataView_1": {
-              "id": "dataView_1",
-              "label": "Incorporated",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "recordtype",
-                    "operator": "STRING_OPERATOR_IS",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "UNIQUE",
-                      "inputEditor": "SIMPLE_SELECT",
-                      "value": [
-                        {
-                          "value": "Incorporated Annex",
-                          "label": "Incorporated Annex"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((UPPER(recordtype) = 'INCORPORATED ANNEX'))",
-                "displaySQL": "(Record Type = 'INCORPORATED ANNEX')"
-              },
-              "orderBy": [
-                {
-                  "jimuFieldName": "recordeddate",
-                  "order": "DESC"
-                }
-              ]
-            },
-            "dataView_2": {
-              "id": "dataView_2",
-              "label": "Zoning",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "recordtype",
-                    "operator": "STRING_OPERATOR_IS_ANY_OF",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "MULTIPLE",
-                      "inputEditor": "MULTIPLE_SELECT",
-                      "value": [
-                        {
-                          "value": "Zoning Permit",
-                          "label": "Zoning Permit"
-                        },
-                        {
-                          "value": "Zoning Change",
-                          "label": "Zoning Change"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((UPPER(recordtype) IN ('ZONING PERMIT','ZONING CHANGE')))",
-                "displaySQL": "(Record Type is any of ('ZONING PERMIT','ZONING CHANGE'))"
-              },
-              "orderBy": [
-                {
-                  "jimuFieldName": "recordeddate",
-                  "order": "DESC"
-                }
-              ]
-            },
-            "dataView_3": {
-              "id": "dataView_3",
-              "label": "Other Taxing Bodies",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "recordtype",
-                    "operator": "STRING_OPERATOR_CONTAINS",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "USER_INPUT",
-                      "inputEditor": "TEXT_BOX",
-                      "value": [
-                        {
-                          "value": "Other Taxing",
-                          "label": "Other Taxing"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((UPPER(recordtype) LIKE '%OTHER TAXING%'))",
-                "displaySQL": "(Record Type contains 'OTHER TAXING')"
-              },
-              "orderBy": [
-                {
-                  "jimuFieldName": "recordeddate",
-                  "order": "DESC"
-                }
-              ]
-            },
-            "dataView_4": {
-              "id": "dataView_4",
-              "label": "Taxing Bodies",
-              "where": {
-                "logicalOperator": "AND",
-                "parts": [
-                  {
-                    "type": "SINGLE",
-                    "jimuFieldName": "recordtype",
-                    "operator": "STRING_OPERATOR_IS_ANY_OF",
-                    "valueOptions": {
-                      "isValid": true,
-                      "sourceType": "MULTIPLE",
-                      "inputEditor": "MULTIPLE_SELECT",
-                      "value": [
-                        {
-                          "value": "Other Taxing Body Annex",
-                          "label": "Other Taxing Body Annex"
-                        },
-                        {
-                          "value": "Incorporated Annex",
-                          "label": "Incorporated Annex"
-                        }
-                      ]
-                    },
-                    "displayType": "NONE",
-                    "askForValueOptions": null,
-                    "displayLabel": null,
-                    "caseSensitive": false
-                  }
-                ],
-                "sql": "((UPPER(recordtype) IN ('OTHER TAXING BODY ANNEX','INCORPORATED ANNEX')))",
-                "displaySQL": "(Record Type is any of ('OTHER TAXING BODY ANNEX','INCORPORATED ANNEX'))"
+          "dataViews": {},
+          "query": {
+            "id": "default",
+            "label": "Records",
+            "orderBy": [
+              {
+                "jimuFieldName": "recordeddate",
+                "order": "DESC"
               }
-            }
+            ]
           }
         },
         "17de3f3e9e0-layer-17": {
@@ -3823,94 +4127,109 @@
       "id": "dataSource_2",
       "type": "WEB_MAP",
       "itemId": "63fe7a4810654b22ac246516ca5a7d17",
+      "portalUrl": "https://maps.co.kendall.il.us/portal",
+      "childDataSourceJsons": {
+        "Change_Record_View_3764": {
+          "id": "dataSource_2-Change_Record_View_3764",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/0",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon",
+          "query": {
+            "id": "default",
+            "label": "Records",
+            "where": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "processdate",
+                  "operator": "DATE_OPERATOR_IS_NOT_BLANK",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "BLANK_SELECTOR",
+                    "value": null
+                  },
+                  "displayType": "NONE",
+                  "askForValueOptions": null,
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "((processdate IS NOT NULL))",
+              "displaySQL": "(Date Processed IS NOT NULL)"
+            }
+          }
+        },
+        "Change_Record_View_9529": {
+          "id": "dataSource_2-Change_Record_View_9529",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/1",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "Change_Record_View_4676": {
+          "id": "dataSource_2-Change_Record_View_4676",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/2",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "Change_Record_View_864": {
+          "id": "dataSource_2-Change_Record_View_864",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/3",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "Change_Record_View_9869": {
+          "id": "dataSource_2-Change_Record_View_9869",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/4",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "Change_Record_View_2596": {
+          "id": "dataSource_2-Change_Record_View_2596",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/5",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "Change_Record_View_475": {
+          "id": "dataSource_2-Change_Record_View_475",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/6",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        },
+        "Change_Record_View_9860": {
+          "id": "dataSource_2-Change_Record_View_9860",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/7",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "22193137f2b848a786379131d157ae5b",
+          "geometryType": "esriGeometryPolygon"
+        }
+      },
+      "isHidden": false
+    },
+    "dataSource_3": {
+      "id": "dataSource_3",
+      "type": "WEB_MAP",
+      "itemId": "143dd60bf36b4c13a0c4b64e137b5815",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
     }
   },
   "messageConfigs": {
-    "messageConfig_9": {
-      "id": "messageConfig_9",
-      "widgetId": "widget_52",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "filter-data-record-action-1640210970247",
-          "messageWidgetId": "widget_46",
-          "actionName": "filter data record action",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_4",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "document"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true,
-            "enableQueryWithCurrentExtent": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "filter-data-record-action-1640640594309",
-          "messageWidgetId": "widget_52",
-          "actionName": "filter data record action",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_4",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9df-layer-15",
-              "mainDataSourceId": "dataSource_1-17de3f3e9df-layer-15",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true,
-            "enableQueryWithCurrentExtent": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-zoomToFeature-1640641203669",
-          "widgetId": "widget_2",
-          "messageWidgetId": "widget_52",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_4",
-                "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.6.0"
-        }
-      ]
-    },
     "messageConfig_10": {
       "id": "messageConfig_10",
       "widgetId": "widget_57",
@@ -3919,62 +4238,6 @@
         {
           "actionId": "widget_2-flash-1640291799052",
           "widgetId": "widget_2",
-          "messageWidgetId": "widget_57",
-          "actionName": "flash",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "mainDataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-flash-1640291799052",
-          "widgetId": "widget_62",
-          "messageWidgetId": "widget_57",
-          "actionName": "flash",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "mainDataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-flash-1640291799052",
-          "widgetId": "widget_80",
           "messageWidgetId": "widget_57",
           "actionName": "flash",
           "description": null,
@@ -4024,62 +4287,6 @@
       "actions": [
         {
           "actionId": "widget_2-flash-1640291799052",
-          "widgetId": "widget_2",
-          "messageWidgetId": "widget_57",
-          "actionName": "flash",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "mainDataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-flash-1640291799052",
-          "widgetId": "widget_62",
-          "messageWidgetId": "widget_57",
-          "actionName": "flash",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "mainDataSourceId": "dataSource_1-17d0bd15299-layer-7",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "pin"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-flash-1640291799052",
           "widgetId": "widget_80",
           "messageWidgetId": "widget_57",
           "actionName": "flash",
@@ -4099,282 +4306,6 @@
               "rootDataSourceId": "dataSource_1",
               "fields": [
                 "pin"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        }
-      ]
-    },
-    "messageConfig_15": {
-      "id": "messageConfig_15",
-      "widgetId": "widget_73",
-      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
-      "actions": [
-        {
-          "actionId": "filter-data-record-action-1640211001359",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter data record action",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "document"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true,
-            "enableQueryWithCurrentExtent": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-zoomToFeature-1640290771127",
-          "widgetId": "widget_2",
-          "messageWidgetId": "widget_49",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-                "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-filter-1640291919198",
-          "widgetId": "widget_2",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9df-layer-16",
-              "mainDataSourceId": "dataSource_1-17de3f3e9df-layer-16",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-filter-1640291935880",
-          "widgetId": "widget_2",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-17",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-17",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-zoomToFeature-1640290771127",
-          "widgetId": "widget_62",
-          "messageWidgetId": "widget_49",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-                "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-filter-1640291919198",
-          "widgetId": "widget_62",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9df-layer-16",
-              "mainDataSourceId": "dataSource_1-17de3f3e9df-layer-16",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-filter-1640291935880",
-          "widgetId": "widget_62",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-17",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-17",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-zoomToFeature-1640290771127",
-          "widgetId": "widget_80",
-          "messageWidgetId": "widget_49",
-          "actionName": "zoomToFeature",
-          "description": null,
-          "config": {
-            "useDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "rootDataSourceId": "dataSource_1"
-            },
-            "useDataSources": [
-              {
-                "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-                "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-                "rootDataSourceId": "dataSource_1"
-              }
-            ]
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-filter-1640291919198",
-          "widgetId": "widget_80",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9df-layer-16",
-              "mainDataSourceId": "dataSource_1-17de3f3e9df-layer-16",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
-          },
-          "version": "1.6.0"
-        },
-        {
-          "actionId": "widget_2-filter-1640291935880",
-          "widgetId": "widget_80",
-          "messageWidgetId": "widget_49",
-          "actionName": "filter",
-          "description": null,
-          "config": {
-            "messageUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-              "dataViewId": "dataView_2",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "name"
-              ]
-            },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-17",
-              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-17",
-              "rootDataSourceId": "dataSource_1",
-              "fields": [
-                "created_doc"
               ]
             },
             "sqlExprObj": null,
@@ -4399,15 +4330,489 @@
         }
       ]
     },
-    "messageConfig_17": {
-      "id": "messageConfig_17",
-      "widgetId": "widget_86",
+    "messageConfig_18": {
+      "id": "messageConfig_18",
+      "widgetId": "widget_73",
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": [
         {
-          "actionId": "widget_85-zoomToFeature-1640641431173",
-          "widgetId": "widget_85",
-          "messageWidgetId": "widget_86",
+          "actionId": "widget_62-zoomToFeature-1640712124927",
+          "widgetId": "widget_62",
+          "messageWidgetId": "widget_73",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+                "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+                "rootDataSourceId": "dataSource_3"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_80-zoomToFeature-1640712129969",
+          "widgetId": "widget_80",
+          "messageWidgetId": "widget_73",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+                "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+                "rootDataSourceId": "dataSource_3"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_62-filter-1640723414847",
+          "widgetId": "widget_62",
+          "messageWidgetId": "widget_73",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-17",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-17",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "retired_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_62-filter-1640723427014",
+          "widgetId": "widget_62",
+          "messageWidgetId": "widget_73",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9df-layer-16",
+              "mainDataSourceId": "dataSource_3-17de3f3e9df-layer-16",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "retired_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_80-filter-1640723457470",
+          "widgetId": "widget_80",
+          "messageWidgetId": "widget_73",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9df-layer-16",
+              "mainDataSourceId": "dataSource_3-17de3f3e9df-layer-16",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_80-filter-1640723565535",
+          "widgetId": "widget_80",
+          "messageWidgetId": "widget_73",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_3-17d0bced55c-layer-6",
+              "mainDataSourceId": "dataSource_3-17d0bced55c-layer-6",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "document"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "filter-data-record-action-1640723619856",
+          "messageWidgetId": "widget_73",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_3-17d0bced55c-layer-6",
+              "mainDataSourceId": "dataSource_3-17d0bced55c-layer-6",
+              "rootDataSourceId": "dataSource_3",
+              "fields": [
+                "document"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_19": {
+      "id": "messageConfig_19",
+      "widgetId": "widget_52",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_2-zoomToFeature-1640721449434",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+                "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+                "rootDataSourceId": "dataSource_1"
+              }
+            ]
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723120052",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9df-layer-15",
+              "mainDataSourceId": "dataSource_1-17de3f3e9df-layer-15",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723140749",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9de-layer-14",
+              "mainDataSourceId": "dataSource_1-17de3f3e9de-layer-14",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723156781",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9dd-layer-13",
+              "mainDataSourceId": "dataSource_1-17de3f3e9dd-layer-13",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723175230",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9dd-layer-12",
+              "mainDataSourceId": "dataSource_1-17de3f3e9dd-layer-12",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723199197",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9dd-layer-11",
+              "mainDataSourceId": "dataSource_1-17de3f3e9dd-layer-11",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723211613",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9dc-layer-10",
+              "mainDataSourceId": "dataSource_1-17de3f3e9dc-layer-10",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_2-filter-1640723225413",
+          "widgetId": "widget_2",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9db-layer-9",
+              "mainDataSourceId": "dataSource_1-17de3f3e9db-layer-9",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "created_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "filter-data-record-action-1640723729425",
+          "messageWidgetId": "widget_52",
+          "actionName": "filter data record action",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_1-17d0bced55c-layer-6",
+              "mainDataSourceId": "dataSource_1-17d0bced55c-layer-6",
+              "rootDataSourceId": "dataSource_1",
+              "fields": [
+                "document"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true,
+            "enableQueryWithCurrentExtent": true
+          },
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_20": {
+      "id": "messageConfig_20",
+      "widgetId": "widget_94",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_96-zoomToFeature-1640733160498",
+          "widgetId": "widget_96",
+          "messageWidgetId": "widget_94",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_21": {
+      "id": "messageConfig_21",
+      "widgetId": "widget_96",
+      "messageType": "EXTENT_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_94-zoomToFeature-1640733179658",
+          "widgetId": "widget_94",
+          "messageWidgetId": "widget_96",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "version": "1.6.0"
+        }
+      ]
+    },
+    "messageConfig_22": {
+      "id": "messageConfig_22",
+      "widgetId": "widget_98",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_94-zoomToFeature-1640733206874",
+          "widgetId": "widget_94",
+          "messageWidgetId": "widget_98",
           "actionName": "zoomToFeature",
           "description": null,
           "config": {
@@ -4427,36 +4832,32 @@
           "version": "1.6.0"
         },
         {
-          "actionId": "select-data-record-action-1640641682526",
-          "messageWidgetId": "widget_86",
-          "actionName": "select data record action",
+          "actionId": "widget_96-zoomToFeature-1640733211143",
+          "widgetId": "widget_96",
+          "messageWidgetId": "widget_98",
+          "actionName": "zoomToFeature",
           "description": null,
           "config": {
-            "messageUseDataSource": {
+            "useDataSource": {
               "dataSourceId": "dataSource_2-Change_Record_View_3764",
               "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
-              "rootDataSourceId": "dataSource_2",
-              "fields": [
-                "name"
-              ]
+              "rootDataSourceId": "dataSource_2"
             },
-            "actionUseDataSource": {
-              "dataSourceId": "dataSource_2-Change_Record_View_9529",
-              "mainDataSourceId": "dataSource_2-Change_Record_View_9529",
-              "rootDataSourceId": "dataSource_2",
-              "fields": [
-                "created_doc"
-              ]
-            },
-            "sqlExprObj": null,
-            "enabledDataRelationShip": true
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_2-Change_Record_View_3764",
+                "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+                "rootDataSourceId": "dataSource_2"
+              }
+            ]
           },
           "version": "1.6.0"
         },
         {
-          "actionId": "select-data-record-action-1640641705998",
-          "messageWidgetId": "widget_86",
-          "actionName": "select data record action",
+          "actionId": "widget_94-filter-1640733541756",
+          "widgetId": "widget_94",
+          "messageWidgetId": "widget_98",
+          "actionName": "filter",
           "description": null,
           "config": {
             "messageUseDataSource": {
@@ -4473,6 +4874,34 @@
               "rootDataSourceId": "dataSource_2",
               "fields": [
                 "retired_doc"
+              ]
+            },
+            "sqlExprObj": null,
+            "enabledDataRelationShip": true
+          },
+          "version": "1.6.0"
+        },
+        {
+          "actionId": "widget_96-filter-1640733557980",
+          "widgetId": "widget_96",
+          "messageWidgetId": "widget_98",
+          "actionName": "filter",
+          "description": null,
+          "config": {
+            "messageUseDataSource": {
+              "dataSourceId": "dataSource_2-Change_Record_View_3764",
+              "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "name"
+              ]
+            },
+            "actionUseDataSource": {
+              "dataSourceId": "dataSource_2-Change_Record_View_9529",
+              "mainDataSourceId": "dataSource_2-Change_Record_View_9529",
+              "rootDataSourceId": "dataSource_2",
+              "fields": [
+                "created_doc"
               ]
             },
             "sqlExprObj": null,
@@ -4520,7 +4949,8 @@
     "height": {
       "LARGE": 75
     },
-    "backgroundColor": "var(--primary)"
+    "backgroundColor": "var(--primary)",
+    "sticky": true
   },
   "customTheme": {},
   "footer": {
@@ -4532,5 +4962,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1640663469848
+  "timestamp": 1640755169421
 }
