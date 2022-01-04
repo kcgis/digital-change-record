@@ -2,7 +2,7 @@
   "created": 1636572103620,
   "description": "",
   "id": "digital-change-record",
-  "modified": 1640733627194,
+  "modified": 1641333044963,
   "owner": "jcarlson",
   "tags": [],
   "thumbnail": null,
@@ -13,7 +13,7 @@
     "EXB Experience",
     "Ready To Use",
     "JavaScript",
-    "status: Published",
+    "status: Changed",
     "version:1.6.0"
   ],
   "portalUrl": "https://maps.co.kendall.il.us/portal",
