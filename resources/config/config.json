@@ -39,7 +39,8 @@
       "isVisible": true,
       "label": "Cadastre",
       "header": true,
-      "footer": false
+      "footer": true,
+      "bodyBackgroundColor": "var(--secondary)"
     }
   },
   "layouts": {
@@ -1200,7 +1201,7 @@
             "top": "168px",
             "bottom": "568px",
             "width": "400px",
-            "height": "700px"
+            "height": "350px"
           },
           "widgetId": "widget_93",
           "setting": {
@@ -1215,7 +1216,7 @@
             "lockParent": true,
             "floatingArea": 7,
             "offsetX": 10,
-            "offsetY": 10
+            "offsetY": 40
           },
           "bbox": {
             "top": 0,
@@ -1240,10 +1241,26 @@
           "setting": {
             "heightMode": "fixed"
           }
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "429px",
+            "right": "829px",
+            "top": "168px",
+            "bottom": "568px",
+            "width": "400px",
+            "height": "350px"
+          },
+          "widgetId": "widget_128",
+          "setting": {
+            "heightMode": "fixed"
+          }
         }
       },
       "order": [
         "0",
+        "3",
         "1",
         "2"
       ]
@@ -1329,47 +1346,53 @@
       "type": "ROW",
       "label": "Default",
       "order": [
-        "1",
-        "2"
+        "4",
+        "3"
       ],
       "content": {
-        "1": {
+        "3": {
           "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 9,
+            "width": 3,
+            "height": "364px"
+          },
+          "widgetId": "widget_127"
+        },
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {
+              "transform": {
+                "rotate": 0
+              }
+            },
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
           "bbox": {
             "left": 0,
             "width": 9,
-            "height": "478px"
+            "height": "678px"
           },
-          "widgetId": "widget_95",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          }
-        },
-        "2": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "9px",
-            "width": "3px",
-            "height": "400px"
-          },
-          "widgetId": "widget_124",
-          "setting": {
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          }
+          "widgetId": "widget_94"
         }
       },
       "setting": {
-        "space": 10,
+        "space": 5,
         "style": {
           "padding": {
             "number": [
+              0,
               10,
-              10,
-              10,
+              5,
               425
             ],
             "unit": "px"
@@ -1407,46 +1430,6 @@
           }
         }
       }
-    },
-    "layout_76": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "width": "308px",
-            "height": "350.00px"
-          },
-          "widgetId": "widget_94",
-          "isPending": false
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "width": "308px",
-            "height": "350.00px"
-          },
-          "widgetId": "widget_96",
-          "isPending": false
-        }
-      },
-      "order": [
-        "0",
-        "1"
-      ]
     },
     "layout_77": {
       "type": "FIXED",
@@ -1598,18 +1581,10 @@
       "type": "FIXED",
       "label": "Second",
       "content": {
-        "2": {
+        "3": {
           "type": "WIDGET",
-          "bbox": {
-            "left": "0%",
-            "right": "0%",
-            "top": "0%",
-            "bottom": "0%",
-            "width": "100%",
-            "height": "100%"
-          },
-          "widgetId": "widget_125",
           "setting": {
+            "style": {},
             "autoProps": {
               "right": false,
               "left": false,
@@ -1620,11 +1595,20 @@
             },
             "vCenter": false,
             "hCenter": false
-          }
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "20.00px",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_98"
         }
       },
       "order": [
-        "2"
+        "3"
       ]
     },
     "layout_89": {
@@ -1982,11 +1966,40 @@
         "1"
       ]
     },
-    "layout_103": {
-      "type": "COLUMN",
+    "layout_104": {
+      "type": "ROW",
       "label": "Default",
+      "setting": {
+        "space": 5,
+        "style": {
+          "padding": {
+            "number": [
+              5,
+              10,
+              0,
+              425
+            ],
+            "unit": "px"
+          }
+        }
+      },
       "content": {
-        "0": {
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 9,
+            "width": 3,
+            "height": "734px"
+          },
+          "widgetId": "widget_136",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            },
+            "maintainedByLayout": true
+          }
+        },
+        "3": {
           "type": "WIDGET",
           "setting": {
             "style": {},
@@ -1995,21 +2008,114 @@
             }
           },
           "bbox": {
-            "width": "245px",
-            "height": "599px"
+            "left": 0,
+            "width": 9,
+            "height": "334px"
           },
-          "widgetId": "widget_98"
+          "widgetId": "widget_96"
+        }
+      },
+      "order": [
+        "3",
+        "2"
+      ]
+    },
+    "layout_105": {
+      "type": "COLUMN",
+      "label": "Default",
+      "order": [
+        "0",
+        "1"
+      ],
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0px",
+            "right": "213px",
+            "top": "0px",
+            "bottom": "40px",
+            "width": "213px",
+            "height": "30.00px"
+          },
+          "widgetId": "widget_137"
+        },
+        "1": {
+          "widgetId": "widget_135",
+          "type": "WIDGET",
+          "bbox": {
+            "left": 9,
+            "width": 3,
+            "height": "674px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        }
+      }
+    },
+    "layout_106": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "80.00%",
+            "height": "100%"
+          },
+          "widgetId": "widget_138",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_107": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_139",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          },
+          "isPending": false
         },
         "1": {
           "type": "WIDGET",
           "bbox": {
             "width": "360px",
-            "height": "70px"
+            "height": "625.00px"
           },
-          "widgetId": "widget_126",
+          "widgetId": "widget_140",
           "setting": {
             "autoProps": {
-              "height": "AUTO"
+              "height": "CUSTOM"
             }
           }
         }
@@ -2017,18 +2123,7 @@
       "order": [
         "0",
         "1"
-      ],
-      "setting": {
-        "padding": {
-          "number": [
-            20,
-            0,
-            0,
-            0
-          ],
-          "unit": "px"
-        }
-      }
+      ]
     }
   },
   "exbVersion": "1.6.0",
@@ -2403,6 +2498,7 @@
           "section": "section_2",
           "views": [
             "view_3",
+            "view_8",
             "view_4",
             "view_5"
           ]
@@ -2468,7 +2564,7 @@
       "version": "1.6.0",
       "label": "WiT Text",
       "config": {
-        "text": "<p style=\"text-align: left;\">This viewer is meant to show all significant changes made to the Kendall County maps. By presenting these changes in a clear, interactive manner, our hope is to make these changes as accessible as possible.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Currently, this viewer is a work in progress. The current focus is on the ordinance-based changes, but other capabilities will be added in the future.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">To see the specific instructions for each page, click the other section titles above, or click the arrows at the sides of this panel.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Click the <strong>Help</strong> button in the lower-left at any time to display this again.</p>",
+        "text": "<p style=\"text-align: left;\">This viewer is meant to show all significant changes made to the Kendall County maps, as well as to direct users to the relevant documents involved in a given change.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">By presenting this information in a clear, interactive manner, our hope is to make these changes as accessible and transparent as possible.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">To see the specific instructions for each page, click the other section titles above, or click the arrows at the sides of this panel.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Click the <strong>Help</strong> button in the lower-left at any time to display this again.</p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -3947,7 +4043,7 @@
     "widget_93": {
       "uri": "widgets/layout/row/",
       "version": "1.6.0",
-      "label": "Maps",
+      "label": "First Block",
       "config": {
         "space": 10,
         "style": {
@@ -4003,30 +4099,6 @@
           "mainDataSourceId": "dataSource_2"
         }
       ]
-    },
-    "widget_95": {
-      "uri": "widgets/layout/column/",
-      "version": "1.6.0",
-      "label": "Map Column",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_95",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_76"
-        }
-      }
     },
     "widget_96": {
       "uri": "widgets/arcgis/arcgis-map/",
@@ -4570,12 +4642,6 @@
         }
       ],
       "dataActions": {
-        "panTo": {
-          "enabled": false
-        },
-        "zoomToFeature": {
-          "enabled": false
-        },
         "showOnMap": {
           "actions": {
             "widget_96": {
@@ -4583,6 +4649,11 @@
             }
           },
           "enabled": false
+        },
+        "actions": {
+          "widget_96": {
+            "enabled": false
+          }
         }
       },
       "enableDataAction": false
@@ -4696,9 +4767,6 @@
         }
       ],
       "dataActions": {
-        "panTo": {
-          "enabled": false
-        },
         "showOnMap": {
           "actions": {
             "widget_94": {
@@ -4706,8 +4774,10 @@
             }
           }
         },
-        "zoomToFeature": {
-          "enabled": false
+        "actions": {
+          "widget_94": {
+            "enabled": false
+          }
         }
       },
       "enableDataAction": false
@@ -5281,10 +5351,76 @@
         }
       }
     },
-    "widget_124": {
+    "widget_127": {
+      "uri": "widgets/arcgis/feature-info/",
+      "version": "1.6.0",
+      "label": "Record Details",
+      "config": {
+        "limitGraphics": false,
+        "maxGraphics": 0,
+        "title": true,
+        "fields": true,
+        "media": true,
+        "attachments": true,
+        "lastEditInfo": true,
+        "noDataMessage": "Select a record to view details.",
+        "styleType": "custom",
+        "style": {
+          "textColor": "",
+          "fontSizeType": "auto",
+          "fontSize": {
+            "distance": 14,
+            "unit": "px"
+          },
+          "backgroundColor": ""
+        }
+      },
+      "id": "widget_127",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_2-Change_Record_View_3764-selection",
+          "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
+          "rootDataSourceId": "dataSource_2",
+          "dataViewId": "selection"
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_128": {
+      "uri": "widgets/layout/row/",
+      "version": "1.6.0",
+      "label": "Second Block",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_128",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_104"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--secondary)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_135": {
       "uri": "widgets/arcgis/legend/",
       "version": "1.6.0",
-      "label": "Legend 1",
+      "label": "Legend",
       "config": {
         "cardStyle": false,
         "cardLayout": "auto",
@@ -5293,24 +5429,22 @@
           "useCustom": false
         }
       },
-      "id": "widget_124",
+      "id": "widget_135",
       "useMapWidgetIds": [
         "widget_96"
       ]
     },
-    "widget_125": {
+    "widget_136": {
+      "id": "widget_136",
       "uri": "widgets/layout/column/",
       "version": "1.6.0",
-      "label": "Column 1",
+      "label": "Legend",
       "config": {
         "space": 10,
         "style": {
           "padding": {
-            "number": [
-              20,
-              0,
-              0,
-              0
+            "space": [
+              10
             ],
             "unit": "px"
           },
@@ -5318,38 +5452,86 @@
           "alignItems": "stretch"
         }
       },
-      "id": "widget_125",
       "layouts": {
         "DEFAULT": {
-          "LARGE": "layout_103"
+          "LARGE": "layout_105"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--org-header-color)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
         }
       }
     },
-    "widget_126": {
+    "widget_137": {
       "uri": "widgets/common/text/",
       "version": "1.6.0",
-      "label": "Text 3",
+      "label": "Legend Header",
       "config": {
-        "text": "<p style=\"text-align: center;\"><strong>Record Notes</strong></p><p style=\"text-align: center;\"><exp data-uniqueid=\"ddefada7_c820_11a5_9eab_e037241b5dd6\" data-dsid=\"dataSource_2-Change_Record_View_3764-selection\" data-expression=\"%7B%22name%22%3A%22%7BNotes%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BNotes%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Change_Record_View_3764-selection%22%2C%22jimuFieldName%22%3A%22notes%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Notes}﻿</span>﻿</exp> </p>",
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Legend</strong></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
-      "id": "widget_126",
-      "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_2-Change_Record_View_3764-selection",
-          "mainDataSourceId": "dataSource_2-Change_Record_View_3764",
-          "rootDataSourceId": "dataSource_2",
-          "dataViewId": "selection",
-          "fields": [
-            "notes"
-          ]
+      "id": "widget_137"
+    },
+    "widget_138": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Cadastre Content",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
         }
-      ]
+      },
+      "id": "widget_138",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_107"
+        }
+      }
+    },
+    "widget_139": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Cadastre Header",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Using the Cadastre Page</span></p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_139"
+    },
+    "widget_140": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Cadastre Text",
+      "config": {
+        "text": "<p style=\"text-align: left;\">This page will show historic changes to cadastral features within Kendall County.</p><p style=\"text-align: left;\"><br></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>What is a \"cadastre\"?</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">The word \"cadastre\" refers to the public register of real property, especially as it relates to boundaries and ownership. Besides parcels, this also concerns such features as:</p><p style=\"text-align: left;\"><br></p><ul><li style=\"text-align: left;\">Subdivisions</li><li style=\"text-align: left;\">Condominiums</li><li style=\"text-align: left;\">Right-of-Ways</li></ul><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>The Records Panel</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will update the rest of the page to show features and details specific to that record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are filters. You can toggle the different townships on and off, and set a range for the recorded date, and the list will update accordingly.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\" class=\"ql-indent-1\"><em>Note: Most changes occur within a single township. There are, however, cases when a change spans more than one. In such cases, the township filter may not return the desired result.</em></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>The Before and After Maps</u></strong></p><p style=\"text-align: left;\">To the right of the records list, you will see two maps, labelled \"before\" and \"after\". When a record is selected, these maps will zoom the the relevant area and show any features created or retired by the record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Record Details</u></strong></p><p style=\"text-align: left;\">In the upper-right, you can view additional details about the selected record, as well as link to the original document on the County Recorder's website.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">If the selected record has any attachments, they will appear here.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Legend</u></strong></p><p style=\"text-align: left;\">To the right of the \"after\" map, you can find a legend which explains the various polygon types displayed in the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>PIN Details Section</u></strong></p><p style=\"text-align: left;\">If you scroll down, you will see an additional section specific to parcels that were created or retired by the selected document.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px;\"><u>Pin Lists</u></strong></p><p style=\"text-align: left;\">On the left are the lists of PINs that were retired or created by the document. Clicking PINs in either list will update the items to the right.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px;\"><u>Attributes / Map</u></strong></p><p style=\"text-align: left;\">On the right you can find detailed information about the selected parcel. There is also a button to switch to a map view which will highlight the selected parcel specifically.</p>",
+        "placeholder": "Double click to edit text",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_140"
     }
   },
   "widgetsManifest": {},
@@ -5391,6 +5573,14 @@
       "layout": {
         "LARGE": "layout_100"
       }
+    },
+    "view_8": {
+      "id": "view_8",
+      "label": "Cadastre",
+      "layout": {
+        "LARGE": "layout_106"
+      },
+      "lazyLoad": true
     }
   },
   "sections": {
@@ -5399,6 +5589,7 @@
       "label": "Guide Sections",
       "views": [
         "view_3",
+        "view_8",
         "view_4",
         "view_5"
       ],
@@ -5716,7 +5907,8 @@
               "sql": "((processdate IS NOT NULL))",
               "displaySQL": "(Date Processed IS NOT NULL)"
             }
-          }
+          },
+          "dataViews": {}
         },
         "Change_Record_View_9529": {
           "id": "dataSource_2-Change_Record_View_9529",
@@ -7023,5 +7215,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1641432042105
+  "timestamp": 1641448609828
 }
