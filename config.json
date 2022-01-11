@@ -1235,7 +1235,7 @@
             "top": "360px",
             "bottom": "960px",
             "width": "300px",
-            "height": "700px"
+            "height": "500px"
           },
           "widgetId": "widget_102",
           "setting": {
@@ -1256,13 +1256,29 @@
           "setting": {
             "heightMode": "fixed"
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "944px",
+            "right": "1244px",
+            "top": "360px",
+            "bottom": "960px",
+            "width": "300px",
+            "height": "500px"
+          },
+          "widgetId": "widget_142",
+          "setting": {
+            "heightMode": "fixed"
+          }
         }
       },
       "order": [
         "0",
         "3",
         "1",
-        "2"
+        "2",
+        "4"
       ]
     },
     "layout_69": {
@@ -1615,7 +1631,7 @@
       "type": "ROW",
       "label": "Default",
       "order": [
-        "9",
+        "10",
         "8"
       ],
       "content": {
@@ -1633,14 +1649,14 @@
             }
           }
         },
-        "9": {
+        "10": {
           "type": "WIDGET",
           "bbox": {
             "left": 0,
             "width": 3,
-            "height": "600px"
+            "height": "400px"
           },
-          "widgetId": "widget_119",
+          "widgetId": "widget_141",
           "setting": {
             "autoProps": {
               "height": "STRETCH"
@@ -1701,42 +1717,13 @@
       ],
       "label": "Regular"
     },
-    "layout_96": {
-      "type": "FIXED",
-      "label": "Regular",
-      "order": [
-        "0"
-      ],
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "0.0%",
-            "right": "0.0%",
-            "top": "0.0%",
-            "bottom": "0.0%",
-            "width": "100.0%",
-            "height": "100.0%"
-          },
-          "widgetId": "widget_107",
-          "setting": {
-            "lockParent": true,
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": true,
-              "bottom": false
-            }
-          }
-        }
-      }
-    },
     "layout_98": {
       "type": "FIXED",
       "label": "Map FixedLayout",
       "order": [
         "0",
-        "1"
+        "1",
+        "2"
       ],
       "content": {
         "0": {
@@ -1745,7 +1732,7 @@
             "left": "15.00px",
             "right": "15.00px",
             "top": "15.00px",
-            "bottom": "30.00px",
+            "bottom": "60.00px",
             "width": "150.00px",
             "height": "40.00px"
           },
@@ -1779,6 +1766,28 @@
             }
           },
           "isPending": true
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "76.8%",
+            "width": "57.0%",
+            "height": "14.6%"
+          },
+          "widgetId": "widget_156",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "AUTO",
+              "height": "AUTO"
+            }
+          }
         }
       }
     },
@@ -1849,7 +1858,7 @@
             "left": "18.7%",
             "right": "15.00px",
             "top": "6.8%",
-            "bottom": "30.00px",
+            "bottom": "60.00px",
             "width": "150.00px",
             "height": "40.00px"
           },
@@ -1891,80 +1900,6 @@
           "sectionId": "section_3"
         }
       }
-    },
-    "layout_102": {
-      "type": "COLUMN",
-      "label": "Default",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "width": "133px",
-            "height": "332px"
-          },
-          "widgetId": "widget_104"
-        },
-        "1": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {},
-            "autoProps": {
-              "height": "STRETCH"
-            }
-          },
-          "bbox": {
-            "width": "133px",
-            "height": "332px"
-          },
-          "widgetId": "widget_105"
-        },
-        "2": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {}
-          },
-          "bbox": {
-            "width": "110px",
-            "height": "29px"
-          },
-          "widgetId": "widget_114"
-        },
-        "3": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {}
-          },
-          "bbox": {
-            "width": "116px",
-            "height": "29px"
-          },
-          "widgetId": "widget_115"
-        },
-        "4": {
-          "type": "WIDGET",
-          "setting": {
-            "style": {}
-          },
-          "bbox": {
-            "width": "133px",
-            "height": "5.00px"
-          },
-          "widgetId": "widget_113"
-        }
-      },
-      "order": [
-        "2",
-        "0",
-        "4",
-        "3",
-        "1"
-      ]
     },
     "layout_104": {
       "type": "ROW",
@@ -2118,6 +2053,360 @@
               "height": "CUSTOM"
             }
           }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_108": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "0.00%",
+            "top": "1.00%",
+            "bottom": "93.8%",
+            "width": "100.00%",
+            "height": "30.00px"
+          },
+          "widgetId": "widget_114"
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "27.4%",
+            "top": "1.00%",
+            "bottom": "55.5%",
+            "width": "90.00%",
+            "height": "98.00%"
+          },
+          "widgetId": "widget_104"
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_109": {
+      "type": "ROW",
+      "label": "Default",
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              10,
+              425
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 0,
+            "width": 3,
+            "height": "400px"
+          },
+          "widgetId": "widget_143",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": 3,
+            "width": 9,
+            "height": "100.0000%"
+          },
+          "widgetId": "widget_151",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_110": {
+      "type": "FIXED",
+      "label": "Default",
+      "content": {
+        "2": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": true
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "27.4%",
+            "top": "1.00%",
+            "bottom": "43.7%",
+            "width": "100.00%",
+            "height": "30.00px"
+          },
+          "widgetId": "widget_146"
+        },
+        "4": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "hCenter": true,
+            "vCenter": false
+          },
+          "bbox": {
+            "left": "50%",
+            "right": "27.4%",
+            "top": "1.00%",
+            "bottom": "0.0%",
+            "width": "90.00%",
+            "height": "98.00%"
+          },
+          "widgetId": "widget_149"
+        }
+      },
+      "order": [
+        "2",
+        "4"
+      ]
+    },
+    "layout_112": {
+      "type": "FIXED",
+      "label": "Regular",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_150",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_113": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "SECTION",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "width": "275px",
+            "height": "678.00px"
+          },
+          "sectionId": "section_4"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_114": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0.0%",
+            "right": "0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "100.0%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_152"
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "18.7%",
+            "right": "15.00px",
+            "top": "6.8%",
+            "bottom": "60.00px",
+            "width": "150.00px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_153",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
+    },
+    "layout_115": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "right": false,
+              "left": false,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "bbox": {
+            "left": "0%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "100%",
+            "height": "100%"
+          },
+          "widgetId": "widget_154"
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_116": {
+      "type": "FIXED",
+      "label": "Map FixedLayout",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "60.00px",
+            "width": "150.00px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_155",
+          "setting": {
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": true,
+              "bottom": false
+            }
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "setting": {
+            "style": {},
+            "autoProps": {
+              "left": true,
+              "right": false,
+              "top": false,
+              "bottom": true,
+              "width": "AUTO",
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": "15.00px",
+            "right": "15.00px",
+            "top": "15.00px",
+            "bottom": "60.00px",
+            "width": "8.1%",
+            "height": "6.8%"
+          },
+          "widgetId": "widget_157"
         }
       },
       "order": [
@@ -4486,7 +4775,7 @@
     "widget_102": {
       "uri": "widgets/layout/row/",
       "version": "1.6.0",
-      "label": "PIN Details",
+      "label": "Retired PIN Details",
       "config": {
         "space": 10,
         "style": {
@@ -4603,9 +4892,7 @@
         "style": {
           "id": "default"
         },
-        "searchFields": null,
         "filters": null,
-        "sorts": null,
         "isShowAutoRefresh": false
       },
       "id": "widget_104",
@@ -4619,8 +4906,9 @@
       "useDataSourcesEnabled": true,
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_4",
-          "mainDataSourceId": "dataSource_4",
+          "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+          "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+          "rootDataSourceId": "dataSource_6",
           "fields": []
         }
       ],
@@ -4637,140 +4925,22 @@
           "widget_96": {
             "enabled": false
           }
+        },
+        "panTo": {
+          "enabled": false
+        },
+        "zoomToFeature": {
+          "enabled": false
         }
       },
-      "enableDataAction": false
-    },
-    "widget_105": {
-      "uri": "widgets/common/list/",
-      "version": "1.6.0",
-      "label": "Created Parcels",
-      "config": {
-        "maxItems": 100,
-        "space": 10,
-        "itemsPerPage": 10,
-        "isItemStyleConfirm": true,
-        "isInitialed": true,
-        "pageStyle": "SCROLL",
-        "itemStyle": "STYLE7",
-        "hoverType": "HOVER0",
-        "selectedStyle": "STYLE0",
-        "differentOddEven": false,
-        "scrollBarOpen": true,
-        "direction": "VERTICAL",
-        "alignType": "CENTER",
-        "scrollStep": 2,
-        "cardConfigs": {
-          "REGULAR": {
-            "cardSize": {
-              "LARGE": {
-                "width": 360,
-                "height": 32
-              }
-            },
-            "enable": true,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              },
-              "background": {
-                "color": "var(--secondary-100)",
-                "fillType": "fit",
-                "image": {
-                  "url": ""
-                }
-              }
-            },
-            "listLayout": "Custom"
-          },
-          "HOVER": {
-            "cardSize": {
-              "LARGE": {
-                "width": 360,
-                "height": 32
-              }
-            },
-            "enable": false,
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--light-400)",
-                "width": "1px"
-              }
-            },
-            "listLayout": "Auto"
-          },
-          "SELECTED": {
-            "cardSize": {
-              "LARGE": {
-                "width": 360,
-                "height": 32
-              }
-            },
-            "backgroundStyle": {
-              "border": {
-                "type": "solid",
-                "color": "var(--primary-500)",
-                "width": "2px"
-              },
-              "background": {
-                "color": "var(--org-header-color)",
-                "fillType": "fit",
-                "image": {
-                  "url": ""
-                }
-              }
-            },
-            "selectionMode": "SINGLE",
-            "listLayout": "Auto"
-          }
-        },
-        "style": {
-          "id": "default"
-        },
-        "filters": null,
-        "isShowAutoRefresh": false
-      },
-      "id": "widget_105",
-      "layouts": {
-        "REGULAR": {
-          "LARGE": "layout_96"
-        },
-        "SELECTED": {},
-        "HOVER": {}
-      },
-      "useDataSourcesEnabled": true,
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_5",
-          "mainDataSourceId": "dataSource_5",
-          "fields": []
-        }
-      ],
-      "dataActions": {
-        "showOnMap": {
-          "actions": {
-            "widget_94": {
-              "enabled": false
-            }
-          }
-        },
-        "actions": {
-          "widget_94": {
-            "enabled": false
-          }
-        }
-      },
-      "enableDataAction": false
+      "enableDataAction": true
     },
     "widget_106": {
       "uri": "widgets/common/text/",
       "version": "1.6.0",
       "label": "Retired PIN",
       "config": {
-        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"30b5a15b_2a6e_a599_a37f_21c57bf8fdd5\" data-dsid=\"dataSource_4\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_4%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{PIN}﻿</span>﻿</exp> </p>",
+        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"cbfe975a_7e7b_bb31_a60d_bfb98e571b6d\" data-dsid=\"dataSource_6-17e4a4fada5-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e4a4fada5-layer-3%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{PIN}</span>﻿</exp></p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
@@ -4779,31 +4949,9 @@
       "id": "widget_106",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_4",
-          "mainDataSourceId": "dataSource_4",
-          "fields": [
-            "pin"
-          ]
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
-    "widget_107": {
-      "uri": "widgets/common/text/",
-      "version": "1.6.0",
-      "label": "Created PIN",
-      "config": {
-        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"1da5ee7c_7853_bbf7_7888_e259cdaa774e\" data-dsid=\"dataSource_5\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_5%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{PIN}﻿</span>﻿</exp> </p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_107",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_5",
-          "mainDataSourceId": "dataSource_5",
+          "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+          "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+          "rootDataSourceId": "dataSource_6",
           "fields": [
             "pin"
           ]
@@ -4827,9 +4975,9 @@
         "styleType": "custom",
         "style": {
           "textColor": "",
-          "fontSizeType": "auto",
+          "fontSizeType": "custom",
           "fontSize": {
-            "distance": 14,
+            "distance": 13,
             "unit": "px"
           },
           "backgroundColor": ""
@@ -4838,8 +4986,8 @@
       "id": "widget_108",
       "useDataSources": [
         {
-          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-selection",
-          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "dataSourceId": "dataSource_6-17e4a4fada5-layer-3-selection",
+          "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
           "rootDataSourceId": "dataSource_6",
           "dataViewId": "selection"
         }
@@ -4849,10 +4997,10 @@
     "widget_110": {
       "uri": "widgets/arcgis/arcgis-map/",
       "version": "1.6.0",
-      "label": "Cadastre PIN Reference Map",
+      "label": "Retired PIN Refernce",
       "config": {
         "toolConifg": {
-          "canZoom": false,
+          "canZoom": true,
           "canHome": false,
           "canSearch": false,
           "canNavigation": false
@@ -4898,31 +5046,6 @@
         }
       }
     },
-    "widget_113": {
-      "uri": "widgets/common/divider/",
-      "version": "1.6.0",
-      "label": "PIN Divider",
-      "config": {
-        "direction": "Horizontal",
-        "strokeStyle": {
-          "type": "Style0",
-          "color": "var(--dark)",
-          "size": "2px"
-        },
-        "pointStart": {
-          "pointStyle": "None",
-          "pointSize": 2
-        },
-        "pointEnd": {
-          "pointStyle": "None",
-          "pointSize": 2
-        },
-        "themeStyle": {
-          "quickStyleType": "Default"
-        }
-      },
-      "id": "widget_113"
-    },
     "widget_114": {
       "uri": "widgets/common/text/",
       "version": "1.6.0",
@@ -4935,19 +5058,6 @@
         }
       },
       "id": "widget_114"
-    },
-    "widget_115": {
-      "uri": "widgets/common/text/",
-      "version": "1.6.0",
-      "label": "Created Parcels Header",
-      "config": {
-        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\"><u>Created Parcels</u></strong></p>",
-        "style": {
-          "verticalAlign": "start",
-          "wrap": true
-        }
-      },
-      "id": "widget_115"
     },
     "widget_116": {
       "uri": "widgets/common/button/",
@@ -5188,39 +5298,6 @@
           "type": "solid",
           "color": "var(--light)",
           "width": "1px"
-        }
-      }
-    },
-    "widget_119": {
-      "uri": "widgets/layout/column/",
-      "version": "1.6.0",
-      "label": "PIN Lists",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "space": [
-              10
-            ],
-            "unit": "px"
-          },
-          "justifyContent": "flex-start",
-          "alignItems": "stretch"
-        }
-      },
-      "id": "widget_119",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_102"
-        }
-      },
-      "style": {
-        "background": {
-          "color": "var(--light)",
-          "fillType": "fit",
-          "image": {
-            "url": ""
-          }
         }
       }
     },
@@ -5497,13 +5574,624 @@
       "version": "1.6.0",
       "label": "Cadastre Text",
       "config": {
-        "text": "<p style=\"text-align: left;\">This page will show historic changes to cadastral features within Kendall County.</p><p style=\"text-align: left;\"><br></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>What is a \"cadastre\"?</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">The word \"cadastre\" refers to the public register of real property, especially as it relates to boundaries and ownership. Besides parcels, this also concerns such features as:</p><p style=\"text-align: left;\"><br></p><ul><li style=\"text-align: left;\">Subdivisions</li><li style=\"text-align: left;\">Condominiums</li><li style=\"text-align: left;\">Right-of-Ways</li></ul><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>The Records Panel</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will update the rest of the page to show features and details specific to that record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are filters. You can toggle the different townships on and off, and set a range for the recorded date, and the list will update accordingly.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\" class=\"ql-indent-1\"><em>Note: Most changes occur within a single township. There are, however, cases when a change spans more than one. In such cases, the township filter may not return the desired result.</em></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>The Before and After Maps</u></strong></p><p style=\"text-align: left;\">To the right of the records list, you will see two maps, labelled \"before\" and \"after\". When a record is selected, these maps will zoom the the relevant area and show any features created or retired by the record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Record Details</u></strong></p><p style=\"text-align: left;\">In the upper-right, you can view additional details about the selected record, as well as link to the original document on the County Recorder's website.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">If the selected record has any attachments, they will appear here.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Legend</u></strong></p><p style=\"text-align: left;\">To the right of the \"after\" map, you can find a legend which explains the various polygon types displayed in the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>PIN Details Section</u></strong></p><p style=\"text-align: left;\">If you scroll down, you will see an additional section specific to parcels that were created or retired by the selected document.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px;\"><u>Pin Lists</u></strong></p><p style=\"text-align: left;\">On the left are the lists of PINs that were retired or created by the document. Clicking PINs in either list will update the items to the right.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px;\"><u>Attributes / Map</u></strong></p><p style=\"text-align: left;\">On the right you can find detailed information about the selected parcel. There is also a button to switch to a map view which will highlight the selected parcel specifically.</p>",
+        "text": "<p style=\"text-align: left;\">This page will show historic changes to cadastral features within Kendall County.</p><p style=\"text-align: left;\"><br></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>What is a \"cadastre\"?</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">The word \"cadastre\" refers to the public register of real property, especially as it relates to boundaries and ownership. Besides parcels, this also concerns such features as:</p><p style=\"text-align: left;\"><br></p><ul><li style=\"text-align: left;\">Subdivisions</li><li style=\"text-align: left;\">Condominiums</li><li style=\"text-align: left;\">Right-of-Ways</li></ul><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>The Records Panel</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will update the rest of the page to show features and details specific to that record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are filters. You can toggle the different townships on and off, and set a range for the recorded date, and the list will update accordingly.</p><p style=\"text-align: left;\"><br></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>Note: Most changes occur within a single township. There are, however, cases when a change spans more than one. In such cases, the township filter may not return the desired result.</em></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>The Before and After Maps</u></strong></p><p style=\"text-align: left;\">To the right of the records list, you will see two maps, labelled \"before\" and \"after\". When a record is selected, these maps will zoom the the relevant area and show any features created or retired by the record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Record Details</u></strong></p><p style=\"text-align: left;\">In the upper-right, you can view additional details about the selected record, as well as link to the original document on the County Recorder's website.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">If the selected record has any attachments, they will appear here.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Legend</u></strong></p><p style=\"text-align: left;\">To the right of the \"after\" map, you can find a legend which explains the various polygon types displayed in the map.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>PIN Details Section</u></strong></p><p style=\"text-align: left;\">If you scroll down, you will see an additional section specific to parcels that were created or retired by the selected document.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px;\"><u>Pin Lists</u></strong></p><p style=\"text-align: left;\">On the left are the lists of PINs that were retired or created by the document. Clicking PINs in either list will update the items to the right.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 14px;\"><u>Attributes / Map</u></strong></p><p style=\"text-align: left;\">On the right you can find detailed information about the selected parcel. There is also a button to switch to a map view which will highlight the selected parcel specifically.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Exporting PIN Details</u></strong></p><p style=\"text-align: left;\">In each PIN list, there is an icon in the upper-right. Click this icon to view download options. You may download the data for the listed parcels in a variety of formats for use in other programs or processes.</p>",
         "style": {
           "verticalAlign": "start",
           "wrap": true
         }
       },
       "id": "widget_140"
+    },
+    "widget_141": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.6.0",
+      "label": "PINs",
+      "id": "widget_141",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_108"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--org-button-color)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_142": {
+      "uri": "widgets/layout/row/",
+      "version": "1.6.0",
+      "label": "Created PIN Details",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_142",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_109"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--primary-100)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_143": {
+      "uri": "widgets/layout/fixed/",
+      "version": "1.6.0",
+      "label": "Created PIN Column",
+      "id": "widget_143",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_110"
+        }
+      },
+      "style": {
+        "background": {
+          "color": "var(--org-button-color)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_146": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Created Parcels Header",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\"><u>Created Parcels</u></strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_146"
+    },
+    "widget_149": {
+      "uri": "widgets/common/list/",
+      "version": "1.6.0",
+      "label": "Created Parcels",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE7",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 360,
+                "height": 32
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              },
+              "background": {
+                "color": "var(--secondary-100)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 360,
+                "height": 32
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 360,
+                "height": 32
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "2px"
+              },
+              "background": {
+                "color": "var(--org-header-color)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "filters": null,
+        "isShowAutoRefresh": false
+      },
+      "id": "widget_149",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_112"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "fields": []
+        }
+      ],
+      "dataActions": {
+        "showOnMap": {
+          "actions": {
+            "widget_94": {
+              "enabled": false
+            }
+          },
+          "enabled": false
+        },
+        "actions": {
+          "widget_94": {
+            "enabled": false
+          }
+        },
+        "panTo": {
+          "enabled": false
+        },
+        "zoomToFeature": {
+          "enabled": false
+        }
+      },
+      "enableDataAction": true
+    },
+    "widget_150": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Created PIN",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"9934602f_b8aa_61a3_f9e7_46ee7ed7b04d\" data-dsid=\"dataSource_6-17e265fcd35-layer-9\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{PIN}</span>﻿</exp></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_150",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "pin"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_151": {
+      "uri": "widgets/layout/column/",
+      "version": "1.6.0",
+      "label": "Created Map and Attributes",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_151",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_113"
+        }
+      }
+    },
+    "widget_152": {
+      "uri": "widgets/arcgis/feature-info/",
+      "version": "1.6.0",
+      "label": "Cadastre PIN Information copy",
+      "config": {
+        "limitGraphics": false,
+        "maxGraphics": 0,
+        "title": true,
+        "fields": true,
+        "media": true,
+        "attachments": true,
+        "lastEditInfo": true,
+        "noDataMessage": "Select a parcel number to view attributes.",
+        "styleType": "custom",
+        "style": {
+          "textColor": "",
+          "fontSizeType": "auto",
+          "fontSize": {
+            "distance": 14,
+            "unit": "px"
+          },
+          "backgroundColor": ""
+        }
+      },
+      "id": "widget_152",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-selection",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "selection"
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_153": {
+      "uri": "widgets/common/button/",
+      "version": "1.6.0",
+      "label": "Created Map Button",
+      "config": {
+        "functionConfig": {
+          "text": "See Map",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1641329951153.png",
+            "position": "RIGHT"
+          },
+          "linkParam": {
+            "linkType": "VIEW",
+            "openType": "_self",
+            "value": "page_3,view_10"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#263a56",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#ffffff",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "color": "#ffffff",
+                "size": 18
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#21324a",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 18
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_153",
+      "useDataSources": [],
+      "style": {
+        "boxShadow": {
+          "offsetX": "2px",
+          "offsetY": "2px",
+          "blur": "5px",
+          "spread": "2px",
+          "color": "rgba(0,0,0,0.43)"
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--light)",
+          "width": "1px"
+        }
+      }
+    },
+    "widget_154": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.6.0",
+      "label": "Created PIN Reference",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": false,
+          "canSearch": false,
+          "canNavigation": false
+        },
+        "isUseCustomMapState": false,
+        "disableScroll": true,
+        "disablePopUp": true,
+        "layoutIndex": 0
+      },
+      "id": "widget_154",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_116"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6",
+          "mainDataSourceId": "dataSource_6"
+        }
+      ]
+    },
+    "widget_155": {
+      "uri": "widgets/common/button/",
+      "version": "1.6.0",
+      "label": "Created Attributes Button",
+      "config": {
+        "functionConfig": {
+          "linkParam": {
+            "linkType": "VIEW",
+            "openType": "_self",
+            "value": "page_3,view_9"
+          },
+          "text": "See Attributes",
+          "textExpression": null,
+          "icon": {
+            "data": "${appResourceUrl}/images/icon_picker_in_setting/1641330829107.png",
+            "position": "RIGHT"
+          }
+        },
+        "styleConfig": {
+          "useCustom": true,
+          "customStyle": {
+            "regular": {
+              "background": {
+                "color": "#fff",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "color": "#c5c5c5",
+                "width": "0px"
+              },
+              "text": {
+                "color": "#181818",
+                "size": "14px"
+              },
+              "borderRadius": {
+                "number": [
+                  2
+                ],
+                "unit": "px"
+              },
+              "iconProps": {
+                "color": "#181818",
+                "size": 18
+              },
+              "boxShadow": {
+                "offsetX": "0px",
+                "offsetY": "0px",
+                "blur": "0px",
+                "spread": "0px"
+              }
+            },
+            "hover": {
+              "background": {
+                "color": "#f0f0f0",
+                "fillType": "fill"
+              },
+              "border": {
+                "type": "solid",
+                "width": "0px"
+              },
+              "text": {
+                "size": "14px"
+              },
+              "borderRadius": {
+                "unit": "px",
+                "number": [
+                  2,
+                  2,
+                  2,
+                  2
+                ]
+              },
+              "iconProps": {
+                "size": 18
+              }
+            }
+          }
+        }
+      },
+      "id": "widget_155",
+      "useDataSources": [],
+      "style": {
+        "boxShadow": {
+          "offsetX": "2px",
+          "offsetY": "2px",
+          "blur": "5px",
+          "spread": "2px",
+          "color": "rgba(0,0,0,0.43)"
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--primary)",
+          "width": "2px"
+        }
+      }
+    },
+    "widget_156": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Retired PIN Label",
+      "config": {
+        "text": "<p><strong style=\"color: var(--primary); font-size: 16px;\"><exp data-uniqueid=\"d644b84c_e056_02a4_b115_ebd607956c29\" data-dsid=\"dataSource_6-17e4a4fada5-layer-3-selection\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e4a4fada5-layer-3-selection%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{PIN}﻿﻿</span>﻿</exp> </strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_156",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e4a4fada5-layer-3-selection",
+          "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "selection",
+          "fields": [
+            "pin"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--primary)",
+          "width": "1px"
+        },
+        "boxShadow": {
+          "offsetX": "2px",
+          "offsetY": "2px",
+          "blur": "5px",
+          "spread": "2px",
+          "color": "rgba(0,0,0,0.43)"
+        }
+      }
+    },
+    "widget_157": {
+      "uri": "widgets/common/text/",
+      "version": "1.6.0",
+      "label": "Created PIN Label",
+      "config": {
+        "text": "<p><strong style=\"color: var(--primary); font-size: 16px;\"><exp data-uniqueid=\"afc418f3_7601_6f71_fb1e_385d38bb65c7\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-selection\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-selection%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Afalse%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{PIN}﻿</span>﻿</exp></strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_157",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-selection",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "selection",
+          "fields": [
+            "pin"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "color": "var(--light)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        },
+        "border": {
+          "type": "solid",
+          "color": "var(--primary)",
+          "width": "1px"
+        },
+        "boxShadow": {
+          "offsetX": "2px",
+          "offsetY": "2px",
+          "blur": "5px",
+          "spread": "2px",
+          "color": "rgba(0,0,0,0.43)"
+        }
+      }
     }
   },
   "widgetsManifest": {},
@@ -5534,14 +6222,14 @@
     },
     "view_6": {
       "id": "view_6",
-      "label": "Map",
+      "label": "Retired Map Section",
       "layout": {
         "LARGE": "layout_99"
       }
     },
     "view_7": {
       "id": "view_7",
-      "label": "Attributes",
+      "label": "Retired Attributes Section",
       "layout": {
         "LARGE": "layout_100"
       }
@@ -5553,6 +6241,20 @@
         "LARGE": "layout_106"
       },
       "lazyLoad": true
+    },
+    "view_9": {
+      "id": "view_9",
+      "label": "Created Attributes Section",
+      "layout": {
+        "LARGE": "layout_114"
+      }
+    },
+    "view_10": {
+      "id": "view_10",
+      "label": "Created Map Section",
+      "layout": {
+        "LARGE": "layout_115"
+      }
     }
   },
   "sections": {
@@ -5577,6 +6279,17 @@
       "views": [
         "view_7",
         "view_6"
+      ],
+      "transition": {
+        "type": "FADE"
+      }
+    },
+    "section_4": {
+      "id": "section_4",
+      "label": "Created PIN Reference",
+      "views": [
+        "view_9",
+        "view_10"
       ],
       "transition": {
         "type": "FADE"
@@ -5947,22 +6660,6 @@
       "type": "WEB_MAP",
       "itemId": "143dd60bf36b4c13a0c4b64e137b5815",
       "portalUrl": "https://maps.co.kendall.il.us/portal"
-    },
-    "dataSource_4": {
-      "id": "dataSource_4",
-      "type": "FEATURE_LAYER",
-      "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/1",
-      "layerId": "1",
-      "geometryType": "esriGeometryPolygon",
-      "label": "Retired parcels"
-    },
-    "dataSource_5": {
-      "id": "dataSource_5",
-      "type": "FEATURE_LAYER",
-      "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/1",
-      "layerId": "1",
-      "geometryType": "esriGeometryPolygon",
-      "label": "Created parcels"
     },
     "dataSource_6": {
       "id": "dataSource_6",
@@ -6666,8 +7363,9 @@
               ]
             },
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_5",
-              "mainDataSourceId": "dataSource_5",
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "rootDataSourceId": "dataSource_6",
               "fields": [
                 "created_doc"
               ]
@@ -6693,8 +7391,9 @@
               ]
             },
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_4",
-              "mainDataSourceId": "dataSource_4",
+              "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "rootDataSourceId": "dataSource_6",
               "fields": [
                 "retired_doc"
               ]
@@ -7030,47 +7729,51 @@
         }
       ]
     },
-    "messageConfig_23": {
-      "id": "messageConfig_23",
-      "widgetId": "widget_104",
+    "messageConfig_26": {
+      "id": "messageConfig_26",
+      "widgetId": "widget_149",
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": [
         {
-          "actionId": "widget_110-zoomToFeature-1641331666224",
-          "widgetId": "widget_110",
-          "messageWidgetId": "widget_104",
+          "actionId": "widget_154-zoomToFeature-1641929143884",
+          "widgetId": "widget_154",
+          "messageWidgetId": "widget_149",
           "actionName": "zoomToFeature",
           "description": null,
           "config": {
             "useDataSource": {
-              "dataSourceId": "dataSource_4",
-              "mainDataSourceId": "dataSource_4"
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "rootDataSourceId": "dataSource_6"
             },
             "useDataSources": [
               {
-                "dataSourceId": "dataSource_4",
-                "mainDataSourceId": "dataSource_4"
+                "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+                "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+                "rootDataSourceId": "dataSource_6"
               }
             ]
           },
           "version": "1.6.0"
         },
         {
-          "actionId": "select-data-record-action-1641332474799",
-          "messageWidgetId": "widget_104",
-          "actionName": "select data record action",
+          "actionId": "widget_154-filter-1641929863135",
+          "widgetId": "widget_154",
+          "messageWidgetId": "widget_149",
+          "actionName": "filter",
           "description": null,
           "config": {
             "messageUseDataSource": {
-              "dataSourceId": "dataSource_4",
-              "mainDataSourceId": "dataSource_4",
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "rootDataSourceId": "dataSource_6",
               "fields": [
                 "objectid"
               ]
             },
             "actionUseDataSource": {
-              "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
-              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
               "rootDataSourceId": "dataSource_6",
               "fields": [
                 "objectid"
@@ -7083,40 +7786,44 @@
         }
       ]
     },
-    "messageConfig_24": {
-      "id": "messageConfig_24",
-      "widgetId": "widget_105",
+    "messageConfig_27": {
+      "id": "messageConfig_27",
+      "widgetId": "widget_104",
       "messageType": "DATA_RECORDS_SELECTION_CHANGE",
       "actions": [
         {
-          "actionId": "widget_110-zoomToFeature-1641331682047",
+          "actionId": "widget_110-zoomToFeature-1641928398657",
           "widgetId": "widget_110",
-          "messageWidgetId": "widget_105",
+          "messageWidgetId": "widget_104",
           "actionName": "zoomToFeature",
           "description": null,
           "config": {
             "useDataSource": {
-              "dataSourceId": "dataSource_5",
-              "mainDataSourceId": "dataSource_5"
+              "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "rootDataSourceId": "dataSource_6"
             },
             "useDataSources": [
               {
-                "dataSourceId": "dataSource_5",
-                "mainDataSourceId": "dataSource_5"
+                "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+                "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+                "rootDataSourceId": "dataSource_6"
               }
             ]
           },
           "version": "1.6.0"
         },
         {
-          "actionId": "select-data-record-action-1641332490686",
-          "messageWidgetId": "widget_105",
-          "actionName": "select data record action",
+          "actionId": "widget_110-filter-1641929844983",
+          "widgetId": "widget_110",
+          "messageWidgetId": "widget_104",
+          "actionName": "filter",
           "description": null,
           "config": {
             "messageUseDataSource": {
-              "dataSourceId": "dataSource_5",
-              "mainDataSourceId": "dataSource_5",
+              "dataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "mainDataSourceId": "dataSource_6-17e4a4fada5-layer-3",
+              "rootDataSourceId": "dataSource_6",
               "fields": [
                 "objectid"
               ]
@@ -7187,5 +7894,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1641448609828
+  "timestamp": 1641952122988
 }
