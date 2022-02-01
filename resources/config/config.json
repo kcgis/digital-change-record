@@ -656,12 +656,12 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0.0%",
-            "right": "120px",
+            "left": "10.00px",
+            "right": "10.00px",
             "top": "50%",
-            "bottom": "0.0%",
-            "width": "67.8%",
-            "height": "65.4%"
+            "bottom": "4.7%",
+            "width": "53.4%",
+            "height": "90.7%"
           },
           "widgetId": "widget_53",
           "setting": {
@@ -669,8 +669,8 @@
             "autoProps": {
               "right": false,
               "left": true,
-              "top": false,
-              "bottom": true,
+              "top": true,
+              "bottom": false,
               "width": "STRETCH",
               "height": "AUTO"
             },
@@ -678,33 +678,10 @@
             "hCenter": false
           },
           "isPending": false
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "36.4%",
-            "right": "15.00px",
-            "top": "50%",
-            "bottom": "13.8%",
-            "width": "100.00px",
-            "height": "35.00px"
-          },
-          "widgetId": "widget_54",
-          "setting": {
-            "lockParent": true,
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": true
-          }
         }
       },
       "order": [
-        "0",
-        "1"
+        "0"
       ]
     },
     "layout_49": {
@@ -1086,8 +1063,8 @@
         "0": {
           "type": "WIDGET",
           "bbox": {
-            "left": "0.0%",
-            "right": "120.00px",
+            "left": "10.00px",
+            "right": "10.00px",
             "top": "50%",
             "bottom": "0.0%",
             "width": "78.3%",
@@ -1108,33 +1085,10 @@
             "hCenter": false
           },
           "isPending": false
-        },
-        "1": {
-          "type": "WIDGET",
-          "bbox": {
-            "left": "36.4%",
-            "right": "15.00px",
-            "top": "50%",
-            "bottom": "13.8%",
-            "width": "100.00px",
-            "height": "35.00px"
-          },
-          "widgetId": "widget_75",
-          "setting": {
-            "lockParent": true,
-            "autoProps": {
-              "right": false,
-              "left": true,
-              "top": false,
-              "bottom": true
-            },
-            "vCenter": true
-          }
         }
       },
       "order": [
-        "0",
-        "1"
+        "0"
       ]
     },
     "layout_64": {
@@ -2425,7 +2379,7 @@
   "widgets": {
     "widget_2": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Taxing Bodies",
       "config": {
         "toolConifg": {
@@ -2553,7 +2507,7 @@
     },
     "widget_12": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Maps and PINs",
       "config": {
         "direction": "HORIZONTAL",
@@ -2916,7 +2870,7 @@
     },
     "widget_35": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Description",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: var(--primary);\">PINs Involved</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: var(--primary);\">in Document﻿</strong></p><p style=\"text-align: center;\"><em style=\"font-size: 13px; color: var(--primary);\">Select a Document</em></p><p style=\"text-align: center;\"><em style=\"font-size: 13px; color: var(--primary);\">to Filter This List</em></p>",
@@ -2930,7 +2884,7 @@
     },
     "widget_52": {
       "uri": "widgets/common/list/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Taxing Body Record List",
       "config": {
         "maxItems": 100,
@@ -3010,7 +2964,7 @@
         "navigatorOpen": false,
         "filterOpen": false,
         "searchOpen": true,
-        "searchFields": "name,ordinance",
+        "searchFields": "name,ordinance,lrs_doc",
         "searchHint": "Document or Ordinance Number",
         "sorts": [
           {
@@ -3053,7 +3007,8 @@
           "fields": [
             "recordeddate",
             "name",
-            "ordinance"
+            "ordinance",
+            "lrs_doc"
           ]
         }
       ],
@@ -3061,10 +3016,10 @@
     },
     "widget_53": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Taxing Body Record Details",
       "config": {
-        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a4250082_a2c6_bf97_ade5_b7228b771bed\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Document}</span>﻿</exp></strong>  |  <exp data-uniqueid=\"7f49dbc2_9eeb_4a5a_217a_1856d76f3eb2\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Date Recorded}</span>﻿</exp>  </p><p>Ordinance <exp data-uniqueid=\"2c0b3f3e_a4b3_9d73_38a5_d3e7e7b3f46d\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22ordinance%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Associated Ordinance}</span>﻿</exp>  </p><p><exp data-uniqueid=\"5ea08ef7_e97b_9ecb_2d3c_d3ace25bc356\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Record Type}</span>﻿</exp>    </p>",
+        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a4250082_a2c6_bf97_ade5_b7228b771bed\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Document}﻿﻿﻿﻿</span>﻿</exp>  |  </strong><em><exp data-uniqueid=\"7f49dbc2_9eeb_4a5a_217a_1856d76f3eb2\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Date Recorded}﻿﻿﻿﻿</span>﻿</exp></em></p><p><exp data-uniqueid=\"5ea08ef7_e97b_9ecb_2d3c_d3ace25bc356\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Record Type}﻿﻿﻿﻿</span>﻿</exp></p><p><exp data-uniqueid=\"ba274169_78fd_6c3f_21e0_b09d3642e2ca\" data-dsid=\"dataSource_1-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecorder's%20Office%20Document%20Number%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecorder's%20Office%20Document%20Number%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22lrs_doc%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿{Recorder's Office Document Number}﻿﻿</span>﻿</exp></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -3080,81 +3035,9 @@
           "fields": [
             "name",
             "recordeddate",
-            "ordinance",
-            "recordtype"
+            "recordtype",
+            "lrs_doc"
           ]
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
-    "widget_54": {
-      "uri": "widgets/common/button/",
-      "version": "1.6.0",
-      "label": "LRS Link",
-      "config": {
-        "functionConfig": {
-          "textExpression": {
-            "name": "View on LRS",
-            "parts": [
-              {
-                "type": "STRING",
-                "exp": "\"View on LRS\""
-              }
-            ]
-          },
-          "text": "",
-          "linkParam": {
-            "linkType": "WEB_ADDRESS",
-            "openType": "_blank",
-            "value": "",
-            "expression": {
-              "name": "lrs",
-              "parts": [
-                {
-                  "type": "STRING",
-                  "exp": "\"http://lrs.kendallcountyrecorder.net/Search/GetDocumentImageFull?docNumber=\""
-                },
-                {
-                  "type": "OPERATOR",
-                  "exp": "+"
-                },
-                {
-                  "type": "FIELD",
-                  "exp": "{Document}",
-                  "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_3",
-                  "jimuFieldName": "name",
-                  "isFromRepeatedDataSourceContext": true
-                }
-              ]
-            }
-          }
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "primary"
-          },
-          "useCustom": false,
-          "customStyle": {
-            "regular": {},
-            "hover": {}
-          }
-        }
-      },
-      "id": "widget_54",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_3",
-          "fields": [
-            "name"
-          ],
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "dataViewId": "dataView_3",
-          "rootDataSourceId": "dataSource_1"
-        },
-        {
-          "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "mainDataSourceId": "dataSource_1-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_1"
         }
       ],
       "useDataSourcesEnabled": true
@@ -3195,7 +3078,7 @@
     },
     "widget_57": {
       "uri": "widgets/common/list/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "PINs",
       "config": {
         "maxItems": 100,
@@ -3295,7 +3178,7 @@
     },
     "widget_58": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "PIN",
       "config": {
         "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"ba8bb877_a87f_5230_7014_22cee2f83bcb\" data-dsid=\"dataSource_1-17d0bced55c-layer-6\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_1-17d0bced55c-layer-6%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{PIN}﻿</span>﻿</exp> </p>",
@@ -3320,7 +3203,7 @@
     },
     "widget_61": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Maps and PINs ",
       "config": {
         "direction": "HORIZONTAL",
@@ -3397,7 +3280,7 @@
     },
     "widget_62": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Before",
       "config": {
         "toolConifg": {
@@ -3434,7 +3317,7 @@
     },
     "widget_63": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning PIN List Description",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: var(--primary);\">PINs Involved</strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 16px; color: var(--primary);\">in Document﻿</strong></p><p style=\"text-align: center;\"><em style=\"font-size: 13px; color: var(--primary);\">Select a Document</em></p><p style=\"text-align: center;\"><em style=\"font-size: 13px; color: var(--primary);\">to Filter This List</em></p>",
@@ -3448,7 +3331,7 @@
     },
     "widget_64": {
       "uri": "widgets/common/list/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning PINs",
       "config": {
         "maxItems": 100,
@@ -3546,7 +3429,7 @@
     },
     "widget_65": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "PIN",
       "config": {
         "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"d993cff3_9f4a_4c08_f361_8007bbc6fac8\" data-dsid=\"dataSource_3-17d0bced55c-layer-6\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17d0bced55c-layer-6%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{PIN}</span>﻿</exp> </p>",
@@ -3571,7 +3454,7 @@
     },
     "widget_73": {
       "uri": "widgets/common/list/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Record List",
       "config": {
         "maxItems": 100,
@@ -3650,7 +3533,7 @@
         "isShowAutoRefresh": false,
         "navigatorOpen": false,
         "searchOpen": true,
-        "searchFields": "name,ordinance",
+        "searchFields": "name,ordinance,lrs_doc",
         "searchHint": "Document or Ordinance Number",
         "sortOpen": true,
         "sorts": [
@@ -3693,7 +3576,8 @@
           "fields": [
             "recordeddate",
             "name",
-            "ordinance"
+            "ordinance",
+            "lrs_doc"
           ]
         }
       ],
@@ -3701,10 +3585,10 @@
     },
     "widget_74": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Record Details",
       "config": {
-        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a0fcca42_398a_2a71_3379_c873e05daabd\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Document}</span>﻿</exp></strong>  |  <exp data-uniqueid=\"1376e21d_fc77_ffba_1f30_9593e3171c0b\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Date Recorded}</span>﻿</exp>  </p><p>Ordinance <exp data-uniqueid=\"29e1ed98_527f_f0f7_e44b_1d73eb794715\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BAssociated%20Ordinance%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22ordinance%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Associated Ordinance}</span>﻿</exp>  </p><p><exp data-uniqueid=\"56f5edc3_80bb_199b_4b2e_737e895b572b\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Record Type}</span>﻿</exp>  </p>",
+        "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"a0fcca42_398a_2a71_3379_c873e05daabd\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDocument%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Document}﻿</span>﻿</exp></strong>  |  <em><exp data-uniqueid=\"1376e21d_fc77_ffba_1f30_9593e3171c0b\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Recorded%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Recorded%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordeddate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Date Recorded}﻿</span>﻿</exp></em></p><p><exp data-uniqueid=\"56f5edc3_80bb_199b_4b2e_737e895b572b\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecord%20Type%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecord%20Type%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22recordtype%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿{Record Type}﻿</span>﻿</exp></p><p><exp data-uniqueid=\"d893c00d_ea5b_b79f_59f5_83668fb8a827\" data-dsid=\"dataSource_3-17de3f3e9e0-layer-18\" data-expression=\"%7B%22name%22%3A%22%7BRecorder's%20Office%20Document%20Number%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BRecorder's%20Office%20Document%20Number%7D%22%2C%22dataSourceId%22%3A%22dataSource_3-17de3f3e9e0-layer-18%22%2C%22jimuFieldName%22%3A%22lrs_doc%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Recorder's Office Document Number}</span>﻿</exp></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -3720,79 +3604,16 @@
           "fields": [
             "name",
             "recordeddate",
-            "ordinance",
-            "recordtype"
+            "recordtype",
+            "lrs_doc"
           ]
-        }
-      ],
-      "useDataSourcesEnabled": true
-    },
-    "widget_75": {
-      "uri": "widgets/common/button/",
-      "version": "1.6.0",
-      "label": "LRS Link",
-      "config": {
-        "functionConfig": {
-          "textExpression": {
-            "name": "View on LRS",
-            "parts": [
-              {
-                "type": "STRING",
-                "exp": "\"View on LRS\""
-              }
-            ]
-          },
-          "text": "",
-          "linkParam": {
-            "linkType": "WEB_ADDRESS",
-            "openType": "_blank",
-            "value": "",
-            "expression": {
-              "name": "Expression",
-              "parts": [
-                {
-                  "type": "STRING",
-                  "exp": "\"http://lrs.kendallcountyrecorder.net/Search/GetDocumentImageFull?docNumber=\""
-                },
-                {
-                  "type": "OPERATOR",
-                  "exp": "+"
-                },
-                {
-                  "type": "FIELD",
-                  "exp": "{Document}",
-                  "dataSourceId": "dataSource_1-17de3f3e9e0-layer-18-dataView_2",
-                  "jimuFieldName": "name",
-                  "isFromRepeatedDataSourceContext": true
-                }
-              ]
-            }
-          }
-        },
-        "styleConfig": {
-          "themeStyle": {
-            "quickStyleType": "primary"
-          },
-          "useCustom": false,
-          "customStyle": {
-            "regular": {},
-            "hover": {}
-          }
-        }
-      },
-      "id": "widget_75",
-      "useDataSources": [
-        {
-          "dataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
-          "mainDataSourceId": "dataSource_3-17de3f3e9e0-layer-18",
-          "rootDataSourceId": "dataSource_3"
         }
       ],
       "useDataSourcesEnabled": true
     },
     "widget_76": {
       "uri": "widgets/common/filter/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Record FIlter",
       "config": {
         "groupByLayer": false,
@@ -3870,7 +3691,7 @@
     },
     "widget_77": {
       "uri": "widgets/common/filter/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Taxing Body Type Filter",
       "config": {
         "groupByLayer": false,
@@ -3981,7 +3802,7 @@
     },
     "widget_78": {
       "uri": "widgets/common/filter/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Taxing Bodies Date Filter",
       "config": {
         "groupByLayer": false,
@@ -4059,7 +3880,7 @@
     },
     "widget_79": {
       "uri": "widgets/common/filter/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Type Filter",
       "config": {
         "groupByLayer": false,
@@ -4169,7 +3990,7 @@
     },
     "widget_80": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning After",
       "config": {
         "toolConifg": {
@@ -4206,7 +4027,7 @@
     },
     "widget_81": {
       "uri": "widgets/common/divider/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Zoning Map Divider",
       "config": {
         "direction": "Vertical",
@@ -4231,7 +4052,7 @@
     },
     "widget_82": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Text 1",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"letter-spacing: 2px; color: var(--dark); font-size: 26px;\">BEFORE</strong></p>",
@@ -4254,7 +4075,7 @@
     },
     "widget_83": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Text 1 copy",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 26px; color: var(--dark); letter-spacing: 2px;\">AFTER</strong></p>",
@@ -7926,5 +7747,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1642196128507
+  "timestamp": 1643774333494
 }
