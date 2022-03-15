@@ -41,6 +41,20 @@
       "header": true,
       "footer": true,
       "bodyBackgroundColor": "var(--secondary)"
+    },
+    "page_4": {
+      "id": "page_4",
+      "mode": "FIT_WINDOW",
+      "type": "NORMAL",
+      "layout": {
+        "LARGE": "layout_117"
+      },
+      "isDefault": false,
+      "isVisible": true,
+      "label": "New Parcels",
+      "header": true,
+      "footer": true,
+      "bodyBackgroundColor": "var(--secondary)"
     }
   },
   "layouts": {
@@ -2367,13 +2381,263 @@
         "0",
         "1"
       ]
+    },
+    "layout_117": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "645.00px",
+            "right": "-0.0%",
+            "top": "0.0%",
+            "bottom": "0.0%",
+            "width": "668.00px",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_158",
+          "setting": {
+            "autoProps": {
+              "right": false,
+              "left": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "STRETCH"
+            },
+            "vCenter": false
+          }
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "79.7%",
+            "top": "350.00px",
+            "bottom": "15.00px",
+            "width": "300.00px",
+            "height": "445.00px"
+          },
+          "widgetId": "widget_159",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": true,
+              "bottom": false,
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "2": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15.00px",
+            "right": "53.9%",
+            "top": "15.00px",
+            "bottom": "71.6%",
+            "width": "300.00px",
+            "height": "240.00px"
+          },
+          "widgetId": "widget_160",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "3": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "330.00px",
+            "right": "42.6%",
+            "top": "15.00px",
+            "bottom": "15.00px",
+            "width": "300.00px",
+            "height": "100%"
+          },
+          "widgetId": "widget_162",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "width": "CUSTOM",
+              "height": "STRETCH"
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        },
+        "4": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "15px",
+            "right": "78.1%",
+            "top": "265.00px",
+            "bottom": "56.8%",
+            "width": "300px",
+            "height": "70px"
+          },
+          "widgetId": "widget_163",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": true
+            },
+            "vCenter": false,
+            "hCenter": false
+          },
+          "isPending": false
+        }
+      },
+      "order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "layout_118": {
+      "type": "FIXED",
+      "label": "Map FixedLayout"
+    },
+    "layout_120": {
+      "label": "Selected",
+      "type": "FIXED"
+    },
+    "layout_121": {
+      "label": "Hover",
+      "type": "FIXED"
+    },
+    "layout_124": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "0.0%",
+            "top": "50%",
+            "bottom": "0.0%",
+            "width": "90.00%",
+            "height": "100.0%"
+          },
+          "widgetId": "widget_161",
+          "setting": {
+            "lockParent": true,
+            "autoProps": {
+              "right": true,
+              "left": false,
+              "top": false,
+              "bottom": true,
+              "height": "AUTO"
+            },
+            "vCenter": true,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ],
+      "label": "Regular"
+    },
+    "layout_125": {
+      "type": "FIXED",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "left": "50%",
+            "right": "0%",
+            "top": "0%",
+            "bottom": "0%",
+            "width": "80.00%",
+            "height": "100%"
+          },
+          "widgetId": "widget_164",
+          "setting": {
+            "autoProps": {
+              "left": false,
+              "right": true,
+              "top": false,
+              "bottom": false,
+              "height": "STRETCH",
+              "width": "CUSTOM"
+            },
+            "vCenter": false,
+            "hCenter": true
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
+    },
+    "layout_126": {
+      "type": "COLUMN",
+      "label": "Default",
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "40.00px"
+          },
+          "widgetId": "widget_165",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          },
+          "isPending": false
+        },
+        "1": {
+          "type": "WIDGET",
+          "bbox": {
+            "width": "360px",
+            "height": "400.00px"
+          },
+          "widgetId": "widget_166",
+          "setting": {
+            "autoProps": {
+              "height": "CUSTOM"
+            }
+          }
+        }
+      },
+      "order": [
+        "0",
+        "1"
+      ]
     }
   },
   "exbVersion": "1.7.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {
+      "LARGE": {
+        "width": 1440,
+        "height": 900
+      }
+    }
   },
   "template": "blankfullscreen",
   "widgets": {
@@ -2741,7 +3005,8 @@
             "view_3",
             "view_8",
             "view_4",
-            "view_5"
+            "view_5",
+            "view_11"
           ]
         },
         "display": {
@@ -4084,7 +4349,7 @@
     },
     "widget_90": {
       "uri": "widgets/layout/column/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Z Content",
       "config": {
         "space": 10,
@@ -4108,7 +4373,7 @@
     },
     "widget_91": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Z Header",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Using the Zoning Page</span></p>",
@@ -4121,7 +4386,7 @@
     },
     "widget_92": {
       "uri": "widgets/common/text/",
-      "version": "1.6.0",
+      "version": "1.7.0",
       "label": "Z Text",
       "config": {
         "text": "<p style=\"text-align: left;\">This page will show historic ordinance-based changes to zoning in Kendall County, as well as the establishing and revoking of zoning permits.</p><p style=\"text-align: left;\"><br></p><p style=\"line-height: 2; text-align: left;\"><strong style=\"font-size: 16px;\"><u>Navigating</u></strong></p><p style=\"text-align: left;\">At the left side of the page, you will find a list of document numbers. Clicking any of these items will zoom to the relevant area and filter the maps to show the features involved.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above this list are filters. You can toggle the different record types on and off, and set a range for the recorded date, and the list will update accordingly.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Within the list, you can search for specific document and ordinance numbers, as well as change the sort order.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>The Maps</u></strong></p><p style=\"text-align: left;\">In the center of the screen are the Before and After maps. These show zoning features established and/or revoked by a given record.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left; line-height: 2;\"><strong style=\"font-size: 16px;\"><u>PINs List</u></strong></p><p style=\"text-align: left;\">The list at the right shows the PINs involved in the selected ordinance. Click on a PIN in this list to see it flash on the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">This list can be collapsed by clicking the arrow tab on the left edge of the list.</p>",
@@ -6011,6 +6276,535 @@
           "color": "rgba(0,0,0,0.43)"
         }
       }
+    },
+    "widget_158": {
+      "uri": "widgets/arcgis/arcgis-map/",
+      "version": "1.7.0",
+      "label": "New PIN Reference",
+      "config": {
+        "toolConifg": {
+          "canZoom": true,
+          "canHome": false,
+          "canSearch": true,
+          "canNavigation": false,
+          "canScaleBar": true
+        },
+        "isUseCustomMapState": false
+      },
+      "id": "widget_158",
+      "layouts": {
+        "MapFixedLayout": {
+          "LARGE": "layout_118"
+        }
+      },
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6",
+          "mainDataSourceId": "dataSource_6"
+        }
+      ]
+    },
+    "widget_159": {
+      "uri": "widgets/common/list/",
+      "version": "1.7.0",
+      "label": "New PINs List",
+      "config": {
+        "maxItems": 100,
+        "space": 10,
+        "itemsPerPage": 10,
+        "isItemStyleConfirm": true,
+        "isInitialed": true,
+        "pageStyle": "SCROLL",
+        "itemStyle": "STYLE6",
+        "hoverType": "HOVER0",
+        "selectedStyle": "STYLE0",
+        "differentOddEven": false,
+        "scrollBarOpen": true,
+        "direction": "VERTICAL",
+        "alignType": "CENTER",
+        "scrollStep": 2,
+        "cardConfigs": {
+          "REGULAR": {
+            "cardSize": {
+              "LARGE": {
+                "width": 328.96,
+                "height": 78.65
+              }
+            },
+            "enable": true,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              },
+              "background": {
+                "color": "var(--primary-600)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "listLayout": "Custom"
+          },
+          "HOVER": {
+            "cardSize": {
+              "LARGE": {
+                "width": 328.96,
+                "height": 78.65
+              }
+            },
+            "enable": false,
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--light-400)",
+                "width": "1px"
+              }
+            },
+            "listLayout": "Auto"
+          },
+          "SELECTED": {
+            "cardSize": {
+              "LARGE": {
+                "width": 328.96,
+                "height": 78.65
+              }
+            },
+            "backgroundStyle": {
+              "border": {
+                "type": "solid",
+                "color": "var(--primary-500)",
+                "width": "1px"
+              },
+              "background": {
+                "color": "var(--primary-400)",
+                "fillType": "fit",
+                "image": {
+                  "url": ""
+                }
+              }
+            },
+            "selectionMode": "SINGLE",
+            "listLayout": "Auto"
+          }
+        },
+        "style": {
+          "id": "default"
+        },
+        "isCheckEmptyTemplate": true,
+        "searchFields": "pin,pin_dashless,created_doc",
+        "filters": null,
+        "sorts": [
+          {
+            "ruleOptionName": "New to Old",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "created_date",
+                "order": "DESC"
+              }
+            ]
+          },
+          {
+            "ruleOptionName": "Old to New",
+            "isEditOptionName": false,
+            "rule": [
+              {
+                "jimuFieldName": "created_date",
+                "order": "ASC"
+              }
+            ]
+          }
+        ],
+        "isShowAutoRefresh": false,
+        "sortOpen": true,
+        "searchOpen": true,
+        "searchHint": "Search by PIN or Document",
+        "navigatorOpen": false
+      },
+      "id": "widget_159",
+      "layouts": {
+        "REGULAR": {
+          "LARGE": "layout_124"
+        },
+        "SELECTED": {},
+        "HOVER": {}
+      },
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "created_date",
+            "pin",
+            "pin_dashless",
+            "created_doc"
+          ],
+          "dataViewId": "dataView_1"
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_160": {
+      "uri": "widgets/common/filter/",
+      "version": "1.7.0",
+      "label": "PIN List Filter",
+      "config": {
+        "groupByLayer": false,
+        "logicalOperator": "AND",
+        "custom": false,
+        "resetAll": false,
+        "turnOffAll": false,
+        "arrangeType": "BLOCK",
+        "triggerType": "TOGGLE",
+        "omitInternalStyle": true,
+        "filterItems": [
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Municipality",
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "dataViewId": "dataView_1",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "municipality"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "municipality",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Municipality",
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Municipality = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Township",
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "township"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "township",
+                  "operator": "STRING_OPERATOR_IS",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "UNIQUE",
+                    "inputEditor": "SIMPLE_SELECT",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Township",
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": "NONE"
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Township = ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          },
+          {
+            "icon": {
+              "svg": "<svg viewBox=\"0 0 16 16\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M15 1.53V0H1v1.53h.07l5.374 5.288v6.121l2.26 2.224a.5.5 0 00.852-.356V6.825l5.382-5.295H15zM2 1h12v.049L8.556 6.406l-.001 7.207-1.111-1.093V6.399L2 1.042V1z\" fill=\"#000\"></path></svg>",
+              "properties": {
+                "color": "",
+                "filename": "filter.svg",
+                "originalName": "filter.svg",
+                "inlineSvg": true,
+                "path": [
+                  "general",
+                  "filter"
+                ],
+                "size": 14
+              }
+            },
+            "name": "Created Date",
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "rootDataSourceId": "dataSource_6",
+              "fields": [
+                "created_date"
+              ]
+            },
+            "sqlExprObj": {
+              "logicalOperator": "AND",
+              "parts": [
+                {
+                  "type": "SINGLE",
+                  "jimuFieldName": "created_date",
+                  "operator": "DATE_OPERATOR_IS_AFTER",
+                  "valueOptions": {
+                    "isValid": true,
+                    "sourceType": "USER_INPUT",
+                    "inputEditor": "DATE_PICKER",
+                    "value": null
+                  },
+                  "displayType": "USE_ASK_FOR_VALUE",
+                  "askForValueOptions": {
+                    "label": "Created after",
+                    "display": "INLINE",
+                    "hint": "",
+                    "cascade": null
+                  },
+                  "displayLabel": null,
+                  "caseSensitive": false
+                }
+              ],
+              "sql": "",
+              "displaySQL": "(Date Created is after ?)"
+            },
+            "autoApplyWhenWidgetOpen": true,
+            "collapseFilterExprs": false
+          }
+        ],
+        "wrap": true
+      },
+      "id": "widget_160",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "dataView_1",
+          "fields": [
+            "municipality"
+          ]
+        },
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "fields": [
+            "created_date",
+            "township"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "color": "",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_161": {
+      "uri": "widgets/common/text/",
+      "version": "1.7.0",
+      "label": "Text 3",
+      "config": {
+        "text": "<p><strong style=\"font-size: 18px; color: var(--light);\"><exp data-uniqueid=\"549ba5ab_94ef_c702_a0a6_b2b4b630391f\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{PIN}﻿﻿﻿﻿﻿</span>﻿</exp> </strong></p><p class=\"ql-indent-1\"><span style=\"color: var(--light);\">Created <exp data-uniqueid=\"8239b3bf_1b8a_11d6_d8da_7cf4f1fc00b0\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Created%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Created%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22created_date%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Date Created}﻿﻿﻿﻿﻿</span>﻿</exp></span></p><p class=\"ql-indent-1\"><span style=\"color: var(--light);\">by <exp data-uniqueid=\"9ff68652_8766_bbe5_e155_2d83ce53f043\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BCreated%20by%20Document%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCreated%20by%20Document%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22created_doc%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Created by Document}﻿﻿﻿﻿</span>﻿</exp> </span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_161",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "dataView_1",
+          "fields": [
+            "pin",
+            "created_date",
+            "created_doc"
+          ]
+        }
+      ],
+      "useDataSourcesEnabled": true
+    },
+    "widget_162": {
+      "uri": "widgets/arcgis/feature-info/",
+      "version": "1.7.0",
+      "label": "Feature Info 2",
+      "config": {
+        "limitGraphics": false,
+        "maxGraphics": 0,
+        "title": true,
+        "fields": true,
+        "media": true,
+        "attachments": true,
+        "lastEditInfo": true,
+        "noDataMessage": "Select a PIN to view details.",
+        "styleType": "custom",
+        "style": {
+          "textColor": "",
+          "fontSizeType": "auto",
+          "fontSize": {
+            "distance": 14,
+            "unit": "px"
+          },
+          "backgroundColor": ""
+        }
+      },
+      "id": "widget_162",
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-selection",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "selection"
+        }
+      ],
+      "enableDataAction": false
+    },
+    "widget_163": {
+      "uri": "widgets/common/text/",
+      "version": "1.7.0",
+      "label": "Text 4",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 24px; color: var(--light);\"><exp data-uniqueid=\"13a27ba7_46dc_725f_963a_5c58c1efdfbf\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22COUNT(%7Bobjectid%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bobjectid%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22objectid%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿COUNT({objectid})﻿﻿﻿﻿﻿</span>﻿</exp></strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 18px; color: var(--light);\">Parcels match the above filters.</strong></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_163",
+      "useDataSourcesEnabled": true,
+      "useDataSources": [
+        {
+          "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+          "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+          "rootDataSourceId": "dataSource_6",
+          "dataViewId": "dataView_1",
+          "fields": [
+            "objectid"
+          ]
+        }
+      ],
+      "style": {
+        "background": {
+          "color": "var(--primary)",
+          "fillType": "fit",
+          "image": {
+            "url": ""
+          }
+        }
+      }
+    },
+    "widget_164": {
+      "uri": "widgets/layout/column/",
+      "version": "1.7.0",
+      "label": "New Parcels Content",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "space": [
+              10
+            ],
+            "unit": "px"
+          },
+          "justifyContent": "flex-start",
+          "alignItems": "stretch"
+        }
+      },
+      "id": "widget_164",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_126"
+        }
+      }
+    },
+    "widget_165": {
+      "uri": "widgets/common/text/",
+      "version": "1.7.0",
+      "label": "New Parcels Header",
+      "config": {
+        "text": "<p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Using the New Parcels Page</span></p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_165"
+    },
+    "widget_166": {
+      "uri": "widgets/common/text/",
+      "version": "1.7.0",
+      "label": "New Parcels Text",
+      "config": {
+        "text": "<p class=\"ql-indent-1\" style=\"text-align: left;\"><em>What is the New Parcels page?</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><em>I though parcels were already covered on the \"Cadastre\" tab?</em></p><p class=\"ql-indent-1\" style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">For some of our users, seeing the changes on a record-by-record basis isn't necessarily what they want. They would prefer to see the changes <em>parcel by parcel</em>. That is what this page is for.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>The Parcel List</u></strong></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Rather than present a list of documents, this page shows, in the lower left, a list of parcel numbers. By default, these will be sorted to show the newest parcels first.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Select a parcel from the list to view its details and show it on the map.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\"><strong style=\"font-size: 16px;\"><u>Parcel Filters</u></strong></p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Above the parcel list are several filters. Use these to filter the list of PINs as needed. For instance, you may only be interested in unincorporated parcels created in the last two years in Seward Township. Setting the filters allows you to do this.</p>",
+        "style": {
+          "verticalAlign": "start",
+          "wrap": true
+        }
+      },
+      "id": "widget_166"
     }
   },
   "widgetsManifest": {},
@@ -6074,6 +6868,14 @@
       "layout": {
         "LARGE": "layout_115"
       }
+    },
+    "view_11": {
+      "id": "view_11",
+      "label": "New Parcels",
+      "layout": {
+        "LARGE": "layout_125"
+      },
+      "lazyLoad": true
     }
   },
   "sections": {
@@ -6084,7 +6886,8 @@
         "view_3",
         "view_8",
         "view_4",
-        "view_5"
+        "view_5",
+        "view_11"
       ],
       "arrowsNav": {
         "visible": true,
@@ -6122,8 +6925,8 @@
       "sizeMode": {
         "LARGE": {
           "position": "CENTER",
-          "width": "500px",
-          "height": "600px"
+          "width": "50.0%",
+          "height": "75.0%"
         }
       },
       "overlayColor": "var(--dark-900)",
@@ -6488,7 +7291,62 @@
       "type": "WEB_MAP",
       "itemId": "fe9549171e6748f8abdce28abf6b5a51",
       "portalUrl": "https://maps.co.kendall.il.us/portal",
-      "sourceLabel": "Parcel Reference Map"
+      "sourceLabel": "Parcel Reference Map",
+      "childDataSourceJsons": {
+        "17e265fcd35-layer-9": {
+          "id": "dataSource_6-17e265fcd35-layer-9",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/1",
+          "portalUrl": "https://maps.co.kendall.il.us/portal",
+          "itemId": "19a10a83f97442969cfebff34024568b",
+          "geometryType": "esriGeometryPolygon",
+          "dataViews": {
+            "dataView_1": {
+              "id": "dataView_1",
+              "label": "Doc-created Parcels",
+              "where": {
+                "logicalOperator": "AND",
+                "parts": [
+                  {
+                    "type": "SINGLE",
+                    "jimuFieldName": "created_date",
+                    "operator": "DATE_OPERATOR_IS_NOT_BLANK",
+                    "valueOptions": {
+                      "isValid": true,
+                      "sourceType": "USER_INPUT",
+                      "inputEditor": "BLANK_SELECTOR",
+                      "value": null
+                    },
+                    "displayType": "NONE",
+                    "askForValueOptions": null,
+                    "displayLabel": null,
+                    "caseSensitive": false
+                  }
+                ],
+                "sql": "((created_date IS NOT NULL))",
+                "displaySQL": "(Date Created IS NOT NULL)"
+              },
+              "orderBy": [
+                {
+                  "jimuFieldName": "created_date",
+                  "order": "DESC"
+                },
+                {
+                  "jimuFieldName": "pin",
+                  "order": "ASC"
+                }
+              ]
+            }
+          }
+        },
+        "17e4a4fada5-layer-3": {
+          "id": "dataSource_6-17e4a4fada5-layer-3",
+          "type": "FEATURE_LAYER",
+          "url": "https://maps.co.kendall.il.us/server/rest/services/Hosted/Change_Record_View/FeatureServer/1",
+          "geometryType": "esriGeometryPolygon"
+        }
+      },
+      "isHidden": false
     }
   },
   "messageConfigs": {
@@ -7665,6 +8523,37 @@
           "version": "1.6.0"
         }
       ]
+    },
+    "messageConfig_28": {
+      "id": "messageConfig_28",
+      "widgetId": "widget_159",
+      "messageType": "DATA_RECORDS_SELECTION_CHANGE",
+      "actions": [
+        {
+          "actionId": "widget_158-zoomToFeature-1647362622698",
+          "widgetId": "widget_158",
+          "messageWidgetId": "widget_159",
+          "actionName": "zoomToFeature",
+          "description": null,
+          "config": {
+            "useDataSource": {
+              "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+              "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+              "rootDataSourceId": "dataSource_6",
+              "dataViewId": "dataView_1"
+            },
+            "useDataSources": [
+              {
+                "dataSourceId": "dataSource_6-17e265fcd35-layer-9-dataView_1",
+                "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
+                "rootDataSourceId": "dataSource_6",
+                "dataViewId": "dataView_1"
+              }
+            ]
+          },
+          "version": "1.7.0"
+        }
+      ]
     }
   },
   "attributes": {
@@ -7695,6 +8584,9 @@
     },
     {
       "page_2": []
+    },
+    {
+      "page_4": []
     }
   ],
   "header": {
@@ -7717,5 +8609,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1643774333494
+  "timestamp": 1647391556962
 }
