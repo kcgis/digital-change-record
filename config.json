@@ -6447,7 +6447,18 @@
           "dataViewId": "dataView_1"
         }
       ],
-      "enableDataAction": false
+      "enableDataAction": true,
+      "dataActions": {
+        "panTo": {
+          "enabled": false
+        },
+        "showOnMap": {
+          "enabled": false
+        },
+        "zoomToFeature": {
+          "enabled": false
+        }
+      }
     },
     "widget_160": {
       "uri": "widgets/common/filter/",
@@ -6494,16 +6505,16 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "municipality",
-                  "operator": "STRING_OPERATOR_IS",
+                  "operator": "STRING_OPERATOR_IS_ANY_OF",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
+                    "sourceType": "MULTIPLE",
+                    "inputEditor": "MULTIPLE_SELECT",
                     "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Municipality",
+                    "label": "Municipalities",
                     "display": "INLINE",
                     "hint": "",
                     "cascade": "NONE"
@@ -6513,7 +6524,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Municipality = ?)"
+              "displaySQL": "(Municipality is any of (?))"
             },
             "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
@@ -6548,16 +6559,16 @@
                 {
                   "type": "SINGLE",
                   "jimuFieldName": "township",
-                  "operator": "STRING_OPERATOR_IS",
+                  "operator": "STRING_OPERATOR_IS_ANY_OF",
                   "valueOptions": {
                     "isValid": true,
-                    "sourceType": "UNIQUE",
-                    "inputEditor": "SIMPLE_SELECT",
+                    "sourceType": "MULTIPLE",
+                    "inputEditor": "MULTIPLE_SELECT",
                     "value": null
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Township",
+                    "label": "Townships",
                     "display": "INLINE",
                     "hint": "",
                     "cascade": "NONE"
@@ -6567,7 +6578,7 @@
                 }
               ],
               "sql": "",
-              "displaySQL": "(Township = ?)"
+              "displaySQL": "(Township is any of (?))"
             },
             "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
@@ -6607,7 +6618,12 @@
                     "isValid": true,
                     "sourceType": "USER_INPUT",
                     "inputEditor": "DATE_PICKER",
-                    "value": null
+                    "value": [
+                      {
+                        "value": 1641211200000,
+                        "label": "Jan 3, 2022"
+                      }
+                    ]
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
@@ -6620,8 +6636,8 @@
                   "caseSensitive": false
                 }
               ],
-              "sql": "",
-              "displaySQL": "(Date Created is after ?)"
+              "sql": "((created_date >= CURRENT_DATE()-60))",
+              "displaySQL": "(Date Created is after Jan 3, 2022)"
             },
             "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
@@ -8609,5 +8625,5 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1647391556962
+  "timestamp": 1647460030127
 }
