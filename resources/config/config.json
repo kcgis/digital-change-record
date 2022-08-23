@@ -2627,7 +2627,7 @@
       ]
     }
   },
-  "exbVersion": "1.7.0",
+  "exbVersion": "1.9.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/shared-theme/",
   "forBuilderAttributes": {
@@ -2678,7 +2678,7 @@
     },
     "widget_7": {
       "uri": "widgets/common/menu/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Page Menu",
       "config": {
         "type": "nav",
@@ -2848,7 +2848,7 @@
     },
     "widget_20": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Title",
       "config": {
         "text": "<p style=\"text-align: right;\"><span style=\"font-size: 30px;\">Digital Change Record</span></p>",
@@ -2862,7 +2862,7 @@
     },
     "widget_21": {
       "uri": "widgets/common/image/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Kendall County Seal",
       "config": {
         "functionConfig": {
@@ -2894,7 +2894,7 @@
     },
     "widget_22": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Credits",
       "config": {
         "text": "<p><span style=\"color: var(--secondary);\">Created by Kendall County GIS</span></p>",
@@ -2908,7 +2908,7 @@
     },
     "widget_23": {
       "uri": "widgets/common/image/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "KCGIS Logo",
       "config": {
         "functionConfig": {
@@ -2961,7 +2961,7 @@
     },
     "widget_25": {
       "uri": "widgets/common/button/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Help Button",
       "config": {
         "functionConfig": {
@@ -2997,7 +2997,7 @@
     },
     "widget_26": {
       "uri": "widgets/common/navigator/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Guide Navigation",
       "config": {
         "data": {
@@ -3031,7 +3031,7 @@
     },
     "widget_27": {
       "uri": "widgets/layout/column/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "WiT Content",
       "config": {
         "space": 10,
@@ -3055,7 +3055,7 @@
     },
     "widget_28": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "WiT Header",
       "config": {
         "text": "<p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Welcome to the</span></p><p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Kendall County GIS</span></p><p style=\"text-align: center;\"><span style=\"font-size: 1.5vw;\">Digital Change Record!</span></p>",
@@ -3069,7 +3069,7 @@
     },
     "widget_29": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "WiT Text",
       "config": {
         "text": "<p style=\"text-align: left;\">This viewer is meant to show all significant changes made to the Kendall County maps, as well as to direct users to the relevant documents involved in a given change.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">By presenting this information in a clear, interactive manner, our hope is to make these changes as accessible and transparent as possible.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">To see the specific instructions for each page, click the other section titles above, or click the arrows at the sides of this panel.</p><p style=\"text-align: left;\"><br></p><p style=\"text-align: left;\">Click the <strong>Help</strong> button in the lower-left at any time to display this again.</p>",
@@ -4415,7 +4415,7 @@
     },
     "widget_93": {
       "uri": "widgets/layout/row/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "First Block",
       "config": {
         "space": 10,
@@ -4446,7 +4446,7 @@
     },
     "widget_94": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre Before",
       "config": {
         "toolConifg": {
@@ -4475,7 +4475,7 @@
     },
     "widget_96": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre After",
       "config": {
         "toolConifg": {
@@ -4504,7 +4504,7 @@
     },
     "widget_97": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Records Panel",
       "id": "widget_97",
       "layouts": {
@@ -4535,7 +4535,7 @@
     },
     "widget_98": {
       "uri": "widgets/common/list/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre Records",
       "config": {
         "maxItems": 100,
@@ -4636,7 +4636,9 @@
         "searchOpen": true,
         "searchHint": "Search by Doc #",
         "showSelectedOnlyOpen": false,
-        "sortOpen": true
+        "sortOpen": true,
+        "layoutType": "ROW",
+        "keepAspectRatio": false
       },
       "id": "widget_98",
       "layouts": {
@@ -4663,7 +4665,7 @@
     },
     "widget_99": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Text 2",
       "config": {
         "text": "<p><strong style=\"font-size: 15px;\"><exp data-uniqueid=\"674cbb18_c8ca_b0f1_fc87_955ff84d3c9f\" data-dsid=\"dataSource_2-Change_Record_View_3764\" data-expression=\"%7B%22name%22%3A%22%7BDocument%20Number%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDocument%20Number%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Change_Record_View_3764%22%2C%22jimuFieldName%22%3A%22name%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Document Number}﻿﻿﻿</span>﻿</exp>  |  </strong>Processed <exp data-uniqueid=\"8101eb42_92b1_466a_e649_9041705cfb9d\" data-dsid=\"dataSource_2-Change_Record_View_3764\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Processed%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Processed%7D%22%2C%22dataSourceId%22%3A%22dataSource_2-Change_Record_View_3764%22%2C%22jimuFieldName%22%3A%22processdate%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿{Date Processed}﻿﻿﻿</span>﻿</exp> </p>",
@@ -4689,7 +4691,7 @@
     },
     "widget_100": {
       "uri": "widgets/common/filter/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre Record Filter",
       "config": {
         "groupByLayer": false,
@@ -4807,7 +4809,7 @@
     },
     "widget_101": {
       "uri": "widgets/layout/sidebar/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "List and Filter",
       "config": {
         "direction": "VERTICAL",
@@ -4836,17 +4838,17 @@
             "normal": {
               "icon": {
                 "useTheme": false,
-                "color": "#FFFFFF"
+                "color": "var(--dark-800)"
               },
               "bg": {
                 "useTheme": true,
-                "color": "var(--primary)"
+                "color": "var(--light-100)"
               }
             },
             "hover": {
               "bg": {
                 "useTheme": true,
-                "color": "var(--primary-800)"
+                "color": "var(--light-200)"
               }
             }
           },
@@ -4859,6 +4861,11 @@
             "style": {
               "borderRadius": "0 0 92px 92px"
             }
+          },
+          "border": {
+            "type": "solid",
+            "color": "var(--light-500)",
+            "width": "1px"
           }
         },
         "defaultState": 1
@@ -4875,7 +4882,7 @@
     },
     "widget_102": {
       "uri": "widgets/layout/row/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Retired PIN Details",
       "config": {
         "space": 10,
@@ -4906,7 +4913,7 @@
     },
     "widget_104": {
       "uri": "widgets/common/list/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Retired Parcels",
       "config": {
         "maxItems": 100,
@@ -4994,7 +5001,9 @@
           "id": "default"
         },
         "filters": null,
-        "isShowAutoRefresh": false
+        "isShowAutoRefresh": false,
+        "layoutType": "ROW",
+        "keepAspectRatio": false
       },
       "id": "widget_104",
       "layouts": {
@@ -5038,7 +5047,7 @@
     },
     "widget_106": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Retired PIN",
       "config": {
         "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"cbfe975a_7e7b_bb31_a60d_bfb98e571b6d\" data-dsid=\"dataSource_6-17e4a4fada5-layer-3\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e4a4fada5-layer-3%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{PIN}</span>﻿</exp></p>",
@@ -5063,7 +5072,7 @@
     },
     "widget_108": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre PIN Information",
       "config": {
         "limitGraphics": false,
@@ -5098,7 +5107,7 @@
     },
     "widget_110": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Retired PIN Refernce",
       "config": {
         "toolConifg": {
@@ -5126,7 +5135,7 @@
     },
     "widget_111": {
       "uri": "widgets/layout/column/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Map and Attributes",
       "config": {
         "space": 10,
@@ -5150,7 +5159,7 @@
     },
     "widget_114": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Retired Parcel Header",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\"><u>Retired Parcels</u></strong></p>",
@@ -5312,7 +5321,7 @@
     },
     "widget_118": {
       "uri": "widgets/common/button/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Map View Button",
       "config": {
         "functionConfig": {
@@ -5452,7 +5461,7 @@
     },
     "widget_122": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre Before Label",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-size: 16px; color: var(--primary);\">BEFORE</strong></p>",
@@ -5482,7 +5491,7 @@
     },
     "widget_123": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre Before Label copy",
       "config": {
         "text": "<p style=\"line-height: 1.75; text-align: center;\"><strong style=\"font-size: 16px; color: var(--primary);\">AFTER</strong></p>",
@@ -5512,7 +5521,7 @@
     },
     "widget_127": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Record Details",
       "config": {
         "limitGraphics": false,
@@ -5547,7 +5556,7 @@
     },
     "widget_128": {
       "uri": "widgets/layout/row/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Second Block",
       "config": {
         "space": 10,
@@ -5578,7 +5587,7 @@
     },
     "widget_135": {
       "uri": "widgets/arcgis/legend/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Legend",
       "config": {
         "cardStyle": false,
@@ -5596,7 +5605,7 @@
     "widget_136": {
       "id": "widget_136",
       "uri": "widgets/layout/column/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Legend",
       "config": {
         "space": 10,
@@ -5628,7 +5637,7 @@
     },
     "widget_137": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Legend Header",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\">Legend</strong></p>",
@@ -5694,7 +5703,7 @@
     },
     "widget_141": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "PINs",
       "id": "widget_141",
       "layouts": {
@@ -5714,7 +5723,7 @@
     },
     "widget_142": {
       "uri": "widgets/layout/row/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created PIN Details",
       "config": {
         "space": 10,
@@ -5745,7 +5754,7 @@
     },
     "widget_143": {
       "uri": "widgets/layout/fixed/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created PIN Column",
       "id": "widget_143",
       "layouts": {
@@ -5765,7 +5774,7 @@
     },
     "widget_146": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created Parcels Header",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 15px;\"><u>Created Parcels</u></strong></p>",
@@ -5779,7 +5788,7 @@
     },
     "widget_149": {
       "uri": "widgets/common/list/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created Parcels",
       "config": {
         "maxItems": 100,
@@ -5867,7 +5876,9 @@
           "id": "default"
         },
         "filters": null,
-        "isShowAutoRefresh": false
+        "isShowAutoRefresh": false,
+        "layoutType": "ROW",
+        "keepAspectRatio": false
       },
       "id": "widget_149",
       "layouts": {
@@ -5911,7 +5922,7 @@
     },
     "widget_150": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created PIN",
       "config": {
         "text": "<p style=\"text-align: center;\"><exp data-uniqueid=\"9934602f_b8aa_61a3_f9e7_46ee7ed7b04d\" data-dsid=\"dataSource_6-17e265fcd35-layer-9\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{PIN}</span>﻿</exp></p>",
@@ -5936,7 +5947,7 @@
     },
     "widget_151": {
       "uri": "widgets/layout/column/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created Map and Attributes",
       "config": {
         "space": 10,
@@ -5960,7 +5971,7 @@
     },
     "widget_152": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Cadastre PIN Information copy",
       "config": {
         "limitGraphics": false,
@@ -5995,7 +6006,7 @@
     },
     "widget_153": {
       "uri": "widgets/common/button/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created Map Button",
       "config": {
         "functionConfig": {
@@ -6089,7 +6100,7 @@
     },
     "widget_154": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Created PIN Reference",
       "config": {
         "toolConifg": {
@@ -6309,7 +6320,7 @@
     },
     "widget_158": {
       "uri": "widgets/arcgis/arcgis-map/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "New PIN Reference",
       "config": {
         "toolConifg": {
@@ -6336,7 +6347,7 @@
     },
     "widget_159": {
       "uri": "widgets/common/list/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "New PINs List",
       "config": {
         "maxItems": 100,
@@ -6452,7 +6463,9 @@
         "sortOpen": true,
         "searchOpen": true,
         "searchHint": "Search by PIN or Document",
-        "navigatorOpen": false
+        "navigatorOpen": false,
+        "layoutType": "ROW",
+        "keepAspectRatio": false
       },
       "id": "widget_159",
       "layouts": {
@@ -6492,7 +6505,7 @@
     },
     "widget_160": {
       "uri": "widgets/common/filter/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "PIN List Filter",
       "config": {
         "groupByLayer": false,
@@ -6634,7 +6647,7 @@
               "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
               "rootDataSourceId": "dataSource_6",
               "fields": [
-                "created_date"
+                "effective_created_date"
               ]
             },
             "sqlExprObj": {
@@ -6642,7 +6655,7 @@
               "parts": [
                 {
                   "type": "SINGLE",
-                  "jimuFieldName": "created_date",
+                  "jimuFieldName": "effective_created_date",
                   "operator": "DATE_OPERATOR_IS_AFTER",
                   "valueOptions": {
                     "isValid": true,
@@ -6650,14 +6663,14 @@
                     "inputEditor": "DATE_PICKER",
                     "value": [
                       {
-                        "value": 1641211200000,
-                        "label": "Jan 3, 2022"
+                        "value": 1641016800000,
+                        "label": "01/1/2022"
                       }
                     ]
                   },
                   "displayType": "USE_ASK_FOR_VALUE",
                   "askForValueOptions": {
-                    "label": "Created after",
+                    "label": "Effective Since",
                     "display": "INLINE",
                     "hint": "",
                     "cascade": null
@@ -6666,8 +6679,8 @@
                   "caseSensitive": false
                 }
               ],
-              "sql": "((created_date >= timestamp '2022-01-04 06:00:00'))",
-              "displaySQL": "(Date Created is after Jan 3, 2022)"
+              "sql": "((effective_created_date >= timestamp '2022-01-02 00:00:00'))",
+              "displaySQL": "(Effective Date Created is after 12/31/2021)"
             },
             "autoApplyWhenWidgetOpen": true,
             "collapseFilterExprs": false
@@ -6691,7 +6704,7 @@
           "mainDataSourceId": "dataSource_6-17e265fcd35-layer-9",
           "rootDataSourceId": "dataSource_6",
           "fields": [
-            "created_date",
+            "effective_created_date",
             "township"
           ]
         }
@@ -6708,10 +6721,10 @@
     },
     "widget_161": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Text 3",
       "config": {
-        "text": "<p><strong style=\"font-size: 18px; color: var(--light);\"><exp data-uniqueid=\"549ba5ab_94ef_c702_a0a6_b2b4b630391f\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{PIN}﻿﻿﻿﻿﻿</span>﻿</exp> </strong></p><p class=\"ql-indent-1\"><span style=\"color: var(--light);\">Created <exp data-uniqueid=\"8239b3bf_1b8a_11d6_d8da_7cf4f1fc00b0\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BDate%20Created%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BDate%20Created%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22created_date%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Date Created}﻿﻿﻿﻿﻿</span>﻿</exp></span></p><p class=\"ql-indent-1\"><span style=\"color: var(--light);\">by <exp data-uniqueid=\"9ff68652_8766_bbe5_e155_2d83ce53f043\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BCreated%20by%20Document%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCreated%20by%20Document%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22created_doc%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿{Created by Document}﻿﻿﻿﻿</span>﻿</exp> </span></p>",
+        "text": "<p><strong style=\"color: var(--light); font-size: 18px;\"><exp data-uniqueid=\"549ba5ab_94ef_c702_a0a6_b2b4b630391f\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BPIN%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BPIN%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22pin%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿﻿{PIN}﻿﻿﻿﻿﻿﻿</span>﻿</exp> </strong></p><p class=\"ql-indent-1\"><span style=\"color: var(--light);\">Effective <exp data-uniqueid=\"6b8b5232_8b4c_ae1a_6133_3c4ef842111f\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BEffective%20Date%20Created%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BEffective%20Date%20Created%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22effective_created_date%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">{Effective Date Created}</span>﻿</exp> by <exp data-uniqueid=\"9ff68652_8766_bbe5_e155_2d83ce53f043\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22%7BCreated%20by%20Document%7D%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7BCreated%20by%20Document%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22created_doc%22%2C%22isFromRepeatedDataSourceContext%22%3Atrue%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿{Created by Document}﻿﻿﻿﻿﻿</span>﻿</exp> </span></p>",
         "placeholder": "Double click to edit text",
         "style": {
           "verticalAlign": "start",
@@ -6727,7 +6740,7 @@
           "dataViewId": "dataView_1",
           "fields": [
             "pin",
-            "created_date",
+            "effective_created_date",
             "created_doc"
           ]
         }
@@ -6736,7 +6749,7 @@
     },
     "widget_162": {
       "uri": "widgets/arcgis/feature-info/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Feature Info 2",
       "config": {
         "limitGraphics": false,
@@ -6771,7 +6784,7 @@
     },
     "widget_163": {
       "uri": "widgets/common/text/",
-      "version": "1.7.0",
+      "version": "1.9.0",
       "label": "Text 4",
       "config": {
         "text": "<p style=\"text-align: center;\"><strong style=\"font-size: 24px; color: var(--light);\"><exp data-uniqueid=\"13a27ba7_46dc_725f_963a_5c58c1efdfbf\" data-dsid=\"dataSource_6-17e265fcd35-layer-9-dataView_1\" data-expression=\"%7B%22name%22%3A%22COUNT(%7Bobjectid%7D)%22%2C%22parts%22%3A%5B%7B%22type%22%3A%22FUNCTION%22%2C%22exp%22%3A%22COUNT%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22(%22%7D%2C%7B%22type%22%3A%22FIELD%22%2C%22exp%22%3A%22%7Bobjectid%7D%22%2C%22dataSourceId%22%3A%22dataSource_6-17e265fcd35-layer-9-dataView_1%22%2C%22jimuFieldName%22%3A%22objectid%22%7D%2C%7B%22type%22%3A%22OPERATOR%22%2C%22exp%22%3A%22)%22%7D%5D%7D\">﻿<span contenteditable=\"false\">﻿﻿﻿﻿﻿COUNT({objectid})﻿﻿﻿﻿﻿</span>﻿</exp></strong></p><p style=\"text-align: center;\"><strong style=\"font-size: 18px; color: var(--light);\">Parcels match the above filters.</strong></p>",
@@ -8659,5 +8672,6 @@
     },
     "backgroundColor": "var(--primary)"
   },
-  "timestamp": 1647460030127
+  "timestamp": 1661314354715,
+  "originExbVersion": "1.7.0"
 }
